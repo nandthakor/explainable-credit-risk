@@ -1,0 +1,29 @@
+{
+  "case_id": 14395,
+  "arm": "cf_only",
+  "text": "At this time, the system does not identify any specific changes that are guaranteed to flip the current decision. That means there isn\u2019t a single, verified step you can take that will automatically move the outcome to \u201capproved.\u201d However, continuing to strengthen the overall health of your credit profile can still improve your chances over time. Focus on paying down any existing balances to lower your credit\u2011card utilization, avoid opening new credit lines or making hard inquiries, keep your employment and income stable, and ensure all bills are paid on time. While none of these actions are confirmed to change the model\u2019s decision right now, they are proven ways to boost your creditworthiness and may lead to a more favorable review in the future.",
+  "word_count": 124,
+  "verification_result": {
+    "case_id": 14395,
+    "arm": "cf_only",
+    "text_length": 756,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

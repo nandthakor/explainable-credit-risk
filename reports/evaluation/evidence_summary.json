@@ -1,0 +1,20 @@
+{
+  "total_cases_exported": 50,
+  "category_distribution": {
+    "true_positive": 10,
+    "false_positive": 10,
+    "true_negative": 10,
+    "false_negative": 10,
+    "borderline": 10
+  },
+  "funnel_totals": {
+    "total_adverse": 23,
+    "total_requested": 69,
+    "total_generated": 51,
+    "total_model_valid": 48,
+    "total_constraint_ok": 24,
+    "total_passed": 24
+  },
+  "schema_version": "1.0",
+  "evidence_directory": "C:\\Users\\HP\\Desktop\\XAI Project\\reports\\evaluation\\evidence_records"
+}

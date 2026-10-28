@@ -1,0 +1,29 @@
+{
+  "case_id": 19051,
+  "arm": "cf_only",
+  "text": "At this time the system does not identify any single change that would automatically flip the decision.\u202fHowever, you can still work on strengthening the overall credit picture, which improves the chance of approval in future reviews.\u202fFocus on keeping existing balances low relative to your limits, and pay all bills on time each month.\u202fIf you have high\u2011interest debt, consider a repayment plan or consolidating to reduce the amount you owe.\u202fMaintaining steady employment and a stable income helps demonstrate repayment ability.\u202fAdding a small, responsibly\u2011managed credit product\u2014such as a secured credit card\u2014can build positive history over time.\u202fRegularly check your credit report for errors and dispute any inaccuracies. These steps collectively raise your credit profile and increase the likelihood of a favorable decision.",
+  "word_count": 125,
+  "verification_result": {
+    "case_id": 19051,
+    "arm": "cf_only",
+    "text_length": 826,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

@@ -1,0 +1,13 @@
+{
+  "instance_id": 1,
+  "case_type": "borderline",
+  "arm": "shap_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted HIGH RISK (likely to default) (confidence: 52.2%) for this applicant.\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Revolving Util (value: 0.5683) - strongly increases the prediction (impact: +0.5180)\n  2. Late 30 59 Days (value: 1) - strongly increases the prediction (impact: +0.5077)\n  3. Monthly Income (value: 1.2e+04) - moderately decreases the prediction (impact: -0.1308)\n  4. Real Estate Loans (value: 2) - moderately increases the prediction (impact: +0.1269)\n  5. Age (value: 58) - moderately decreases the prediction (impact: -0.1105)\n\nIn plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.\n\nDo not suggest what the applicant could do differently â€” only explain the reasoning behind THIS decision.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model flagged the application as high risk because several key pieces of information point toward a higher chance of missing a payment.  \n\n- The applicant’s revolving‑credit usage is very high (about 57 % of the limit), which strongly pushes the risk score up.  \n- There is a recent late payment that was 30‑59 days overdue, another strong driver of risk.  \n- Having two real‑estate loans also adds to the risk.  \n\nOn the other side, the applicant’s monthly income of $12,000 and age of 58 each pull the risk score down a little, but those offsets are not enough to outweigh the three risk‑increasing factors. As a result, the overall prediction is “high risk” with a confidence of about 52 %.",
+  "flesch_kincaid_grade": 9.55,
+  "flesch_reading_ease": 61.04,
+  "word_count": 116,
+  "timestamp": "2026-09-19T16:37:46.466674+00:00"
+}

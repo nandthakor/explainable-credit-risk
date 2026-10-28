@@ -1,0 +1,27 @@
+{
+  "34": {
+    "A": "cf_only",
+    "B": "shap_only",
+    "C": "combined"
+  },
+  "3": {
+    "A": "combined",
+    "B": "cf_only",
+    "C": "shap_only"
+  },
+  "2": {
+    "A": "cf_only",
+    "B": "combined",
+    "C": "shap_only"
+  },
+  "73": {
+    "A": "cf_only",
+    "B": "combined",
+    "C": "shap_only"
+  },
+  "1": {
+    "A": "cf_only",
+    "B": "shap_only",
+    "C": "combined"
+  }
+}

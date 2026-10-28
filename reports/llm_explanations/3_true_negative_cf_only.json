@@ -1,0 +1,13 @@
+{
+  "instance_id": 3,
+  "case_type": "true_negative",
+  "arm": "cf_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining to a loan officer, who will relay it to the applicant, what changes would lead to a different credit decision.\n\nThe model predicted LOW RISK (unlikely to default) for this applicant.\n\nAnalysis shows that if the following changed:\n(No feasible changes were found that would flip the decision.)\nthe decision would likely flip to the opposite outcome.\n\nIn plain, non-technical language, explain what the applicant could realistically do to change the outcome, based only on these changes.\n\nDo not explain why the current decision was made â€” only what would change it.\n\nKeep it under 150 words.\n",
+  "raw_response": "Unfortunately, there are no specific actions you can take right now that would change the decision. The analysis found no realistic changes—such as adjusting income, debt, or credit history—that would flip the outcome. If your situation changes significantly in the future (for example, a higher steady income or a lower debt load), you could consider re‑applying then.",
+  "flesch_kincaid_grade": 12.52,
+  "flesch_reading_ease": 39.13,
+  "word_count": 57,
+  "timestamp": "2026-09-19T16:37:06.723128+00:00"
+}

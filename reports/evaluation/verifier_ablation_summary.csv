@@ -1,0 +1,5 @@
+Arm,N_Cases,Pre_Verifier_Violation_Rate,Post_Verifier_Violation_Rate,Retry_Count,Fallback_Count
+SHAP-Only (Arm 1),50,0.18,0.0,9,5
+CF-Only (Arm 2),50,0.5,0.0,25,10
+Combined (Arm 3),50,0.16,0.0,8,0
+Deterministic Template (Arm 4),50,0.0,0.0,0,0

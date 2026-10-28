@@ -1,0 +1,32 @@
+{
+  "case_id": 13213,
+  "arm": "cf_only",
+  "text": "To bring your credit\u2011risk profile down, focus on eliminating the balances you carry on revolving accounts (credit cards, lines of credit). Aim to have a utilization rate of\u202f0\u202fpercent\u2014that means no outstanding balance at the time your statement closes. You can do this by:\n\n1. Paying off the full amount owed each month, preferably before the due date.  \n2. If the balance is large, make extra payments throughout the month to keep it at zero.  \n3. Consider using cash or a debit card for purchases until the credit\u2011card balance is cleared.  \n4. If you have multiple cards, keep each one paid in full, or temporarily close cards after paying them off (but keep at least one open for a positive history).\n\nKeeping revolving balances at zero will lower your default probability and improve your chances of approval.",
+  "word_count": 138,
+  "verification_result": {
+    "case_id": 13213,
+    "arm": "cf_only",
+    "text_length": 812,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 1,
+    "numerical_accuracy": 0.3333333333333333,
+    "numerical_mismatches": [
+      "3 (=3.00)",
+      "4 (=4.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 1,
+    "recourse_actions_verified": 1,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

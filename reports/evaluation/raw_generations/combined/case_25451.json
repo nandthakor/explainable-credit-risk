@@ -1,0 +1,29 @@
+{
+  "case_id": 25451,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nThe model looks at the information it has about you and estimates a very high chance (about 98\u202f%) that the loan could be missed. Three things stood out most: you have two accounts that are 60\u201189 days past their payment dates, and three accounts that are 30\u201159 days past due. Those recent late payments add a lot of risk in the model\u2019s view. In addition, the amount of credit you are using on revolving accounts is about 62\u202f% of the total credit available to you, which also pushes the risk higher. Together, these factors lead the system to label the application as \u201chigh risk.\u201d\n\n**What you can do next**  \nThe automated check did not find a specific, verified step that would immediately change this outcome. Because the model\u2019s risk drivers are tied to recent payment history and current credit use, the best approach is to discuss your situation directly with a",
+  "word_count": 158,
+  "verification_result": {
+    "case_id": 25451,
+    "arm": "combined",
+    "text_length": 896,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

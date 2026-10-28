@@ -1,0 +1,13 @@
+{
+  "instance_id": 2,
+  "case_type": "false_positive",
+  "arm": "cf_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining to a loan officer, who will relay it to the applicant, what changes would lead to a different credit decision.\n\nThe model predicted HIGH RISK (likely to default) for this applicant.\n\nAnalysis shows that if the following changed:\n  - Revolving Util: 0.5853 -> 0.4 (decrease)\n  - Late 30 59 Days: 3 -> 0 (decrease)\n  - Debt Ratio: 0.4033 -> 0.3 (decrease)\n  - Monthly Income: 4271 -> 4273 (increase)\n  - Open Credit Lines: 8 -> 7 (decrease)\nthe decision would likely flip to the opposite outcome.\n\nIn plain, non-technical language, explain what the applicant could realistically do to change the outcome, based only on these changes.\n\nDo not explain why the current decision was made â€” only what would change it.\n\nKeep it under 150 words.\n",
+  "raw_response": "To move the decision to a more favorable result, the applicant would need to make a few concrete changes:\n\n1. **Pay down credit‑card balances** so the amount owed compared to the credit limit drops from about 58 % to 40 %.  \n2. **Clear any recent late payments** – having zero payments that were 30‑59 days late would help.  \n3. **Lower the overall amount of debt** relative to income, bringing the debt‑to‑income figure down from roughly 40 % to 30 %. This can be done by paying off loans or increasing income.  \n4. **Add a small boost to monthly earnings** – even a modest increase (e.g., an extra $20‑$30 per month) would be beneficial.  \n5. **Close one credit account** so the total number of open credit lines goes from eight to seven.\n\nTaking these steps—especially reducing credit‑card usage and eliminating recent late payments—would give the model a reason to change the decision.",
+  "flesch_kincaid_grade": 8.6,
+  "flesch_reading_ease": 62.12,
+  "word_count": 145,
+  "timestamp": "2026-09-19T16:37:21.575269+00:00"
+}

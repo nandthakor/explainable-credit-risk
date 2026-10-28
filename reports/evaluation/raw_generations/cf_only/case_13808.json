@@ -1,0 +1,29 @@
+{
+  "case_id": 13808,
+  "arm": "cf_only",
+  "text": "At this time the model does not identify any single change that would automatically move you from a \u201clow\u2011risk\u201d to a \u201chigh\u2011risk\u201d classification. Because no verified recourse pathway was found, there isn\u2019t a specific action that guarantees a different decision. Nonetheless, lenders generally look for a stronger overall financial picture. You can work on reducing any outstanding balances, keeping new borrowing to",
+  "word_count": 62,
+  "verification_result": {
+    "case_id": 13808,
+    "arm": "cf_only",
+    "text_length": 413,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

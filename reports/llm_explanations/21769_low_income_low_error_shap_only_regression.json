@@ -1,0 +1,13 @@
+{
+  "instance_id": 21769,
+  "case_type": "low_income_low_error",
+  "arm": "shap_only_regression",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated income estimation to a loan officer, who will relay it to the applicant.\n\nThe model estimated this applicant's monthly income at $2,998/month (actual reported income: $3,000/month).\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Real Estate Loans (value: 0) - strongly decreases the prediction (impact: -1295.1138)\n  2. Age (value: 26) - strongly decreases the prediction (impact: -762.3038)\n  3. Open Credit Lines (value: 3) - strongly decreases the prediction (impact: -655.3270)\n  4. Num Dependents (value: 0) - strongly decreases the prediction (impact: -646.5886)\n  5. Revolving Util (value: 1.033) - strongly decreases the prediction (impact: -464.8435)\n\nIn plain, non-technical language, explain why the model arrived at this income estimate, referencing only the factors listed above.\n\nDo not suggest what the applicant could do to change the estimate â€” only explain how the model reached THIS figure.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model looked at five key pieces of information and each one pulled the estimated income down from what it might otherwise have been.\n\n1. **Real‑estate loans** – having a real‑estate loan (the model saw a value of 0 for this factor) reduced the estimate by about $1,295.  \n2. **Age** – being 26 years old lowered the estimate by roughly $762.  \n3. **Open credit lines** – having three open credit lines cut the estimate by about $655.  \n4. **Number of dependents** – with no dependents, the model subtracted another $647.  \n5. **Revolving utilization** – a utilization rate of 1.033 (just over 100 % of the revolving limit) decreased the estimate by about $465.\n\nWhen all of these negative adjustments are added together, the model arrived at an estimated monthly income of $2,998, which is very close to the applicant’s reported $3,000.",
+  "flesch_kincaid_grade": 10.05,
+  "flesch_reading_ease": 53.09,
+  "word_count": 135,
+  "timestamp": "2026-09-19T16:38:01.200815+00:00"
+}

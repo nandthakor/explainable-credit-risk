@@ -1,0 +1,29 @@
+{
+  "case_id": 13478,
+  "arm": "cf_only",
+  "text": "Based on the current analysis, there isn\u2019t a specific set of changes that has been identified as guaranteed to flip the decision to a higher\u2011risk rating. In other words, no single, verified action is known to automatically move the model\u2019s outcome. However, you can still work on strengthening your overall credit profile. Focus on reducing any outstanding balances, keeping existing credit lines well\u2011under their limits, and avoiding new debt until your current obligations are comfortably managed. Consistently paying all bills on time and maintaining a stable income can also help improve the factors lenders consider, which may increase the likelihood of approval in future reviews.",
+  "word_count": 105,
+  "verification_result": {
+    "case_id": 13478,
+    "arm": "cf_only",
+    "text_length": 686,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

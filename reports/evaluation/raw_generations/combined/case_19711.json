@@ -1,0 +1,29 @@
+{
+  "case_id": 19711,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model looks at three key pieces of information. Your age (67) and your monthly income ($14,033) both pull the risk score down, meaning they make you look less likely to miss a payment. However, the amount of revolving credit you are using is very high (about 98% of the limit). That high utilization pushes the risk score up, because it signals that you are close to maxing out your credit lines. When the model balances these influences, it still classifies you as \u201clow risk,\u201d even though the calculated probability of default is 47.8%.\n\n**What you can do to improve**  \nThe system checked for any specific, verified actions that would reliably change the decision and did not find any feasible pathway that meets all constraints. In other words, there is no clear, model\u2011approved step you can take right now that is guaranteed to flip the outcome. If you",
+  "word_count": 154,
+  "verification_result": {
+    "case_id": 19711,
+    "arm": "combined",
+    "text_length": 899,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

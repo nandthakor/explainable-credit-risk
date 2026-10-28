@@ -1,0 +1,32 @@
+{
+  "case_id": 17677,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: LOW RISK \u2014 unlikely to default\nEstimated Default Probability: 8.8%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 8.8% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 0.2%\n   Risk impact    : This factor decreases the estimated default risk (-0.659).\n   Interpretation : A utilization of 0.2% indicates responsible credit usage, which reduces predicted default risk.\n\n2. APPLICANT AGE\n   Observed value : 77\n   Risk impact    : This factor decreases the estimated default risk (-0.481).\n   Interpretation : At 77 years old, the applicant's age reflects an established credit history.\n\n3. MONTHLY INCOME\n   Observed value : $14,500/month\n   Risk impact    : This factor decreases the estimated default risk (-0.190).\n   Interpretation : A monthly income of $14,500 supports the applicant's capacity to service debt obligations.\n\nRECOURSE RECOMMENDATIONS\n========================================\nThe model currently assesses this applicant as low risk. No recourse action is needed at this time. Maintaining current financial habits is recommended.",
+  "word_count": 196,
+  "verification_result": {
+    "case_id": 17677,
+    "arm": "deterministic_template",
+    "text_length": 1468,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 7,
+    "numbers_matched": 5,
+    "numerical_accuracy": 0.7142857142857143,
+    "numerical_mismatches": [
+      "2 (=2.00)",
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

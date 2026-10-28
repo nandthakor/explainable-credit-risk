@@ -1,0 +1,29 @@
+{
+  "case_id": 20176,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nThe model looks at recent payment behavior to estimate risk. It found three patterns that each push the likelihood of default higher: you have been past due on a bill for 60\u201189 days twice, once for 90+ days, and once for 30\u201159 days. Each of these events adds a noticeable amount to the risk score, and together they lead the system to label the application as \u201chigh risk\u201d with a 97\u202f% chance of default.\n\n**What you can do next**  \nAt this time the model did not identify any specific, verified steps that would reliably change the outcome for this application. In other words, there is no clear, constraint\u2011checked path to reverse the decision based on the information we have. If you wish to re\u2011apply in the future, consider building a stronger overall credit profile\u2014such as maintaining on\u2011time payments on any current obligations and reducing overall debt\u2014so that the model sees fewer high\u2011risk signals.",
+  "word_count": 159,
+  "verification_result": {
+    "case_id": 20176,
+    "arm": "combined",
+    "text_length": 938,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

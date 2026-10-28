@@ -1,0 +1,5 @@
+Arm,N_Cases,Directional_Recall,Hallucinated_Feature_Rate,Numerical_Accuracy,Recourse_Fidelity,Post_Verifier_Violation_Rate
+SHAP-Only (Arm 1),50,1.0,0.0,0.9567,N/A,0.0
+CF-Only (Arm 2),50,1.0,0.0,0.8647,1.0,0.0
+Combined (Arm 3),50,1.0,0.0,0.8959,1.0,0.0
+Deterministic Template (Arm 4),50,1.0,0.0,0.8646,1.0,0.0

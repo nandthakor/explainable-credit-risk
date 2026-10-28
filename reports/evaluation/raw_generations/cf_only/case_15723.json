@@ -1,0 +1,29 @@
+{
+  "case_id": 15723,
+  "arm": "cf_only",
+  "text": "",
+  "word_count": 0,
+  "verification_result": {
+    "case_id": 15723,
+    "arm": "cf_only",
+    "text_length": 0,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

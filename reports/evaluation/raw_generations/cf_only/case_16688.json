@@ -1,0 +1,29 @@
+{
+  "case_id": 16688,
+  "arm": "cf_only",
+  "text": "To turn the \u201chigh\u2011risk\u201d rating around, focus on two key numbers that the model watches:\n\n1. **Revolving\u2011credit utilization** \u2013 This is the amount you owe on credit cards compared with your credit limits. Bring the balance on every revolving account down to\u202f$0. Pay off existing card balances, avoid carrying a balance month to month, and keep new purchases to a minimum until the balance is cleared.\n\n2. **Debt\u2011to\u2011income (DTI) ratio** \u2013 This measures total monthly debt payments against your gross monthly income. Eliminate all recurring debt payments (e.g., personal loans, car loans, credit\u2011card minimums) or increase your income enough to offset them, aiming for a DTI of\u202f0. In practice, that means paying off or consolidating existing loans and, if possible, boosting earnings.\n\nBy zeroing out both figures, the default probability drops to a level that can qualify you for approval.",
+  "word_count": 142,
+  "verification_result": {
+    "case_id": 16688,
+    "arm": "cf_only",
+    "text_length": 887,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

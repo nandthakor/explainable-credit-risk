@@ -1,0 +1,29 @@
+{
+  "case_id": 20439,
+  "arm": "shap_only",
+  "text": "The model looks at three key pieces of the applicant\u2019s history to decide whether they are likely to miss a payment. First, the applicant has five real\u2011estate loans or mortgages. Each additional mortgage raises the chance of default, and the model adds a modest risk boost of\u202f+0.518 because more loans mean more debt to manage. Second, the applicant has no recent late payments (0 instances of being 30\u201159 days past due). This clean record pulls the risk down by\u202f\u20110.152, showing the borrower has been timely on recent obligations. Finally, the applicant\u2019s age is 47. Being older adds a small amount of risk (+0.104), as the model slightly associates that age group with higher default odds. When these three effects are combined, the modest increases are outweighed by the negative contribution, leading the model to label the overall profile as low risk despite the numeric probability.",
+  "word_count": 147,
+  "verification_result": {
+    "case_id": 20439,
+    "arm": "shap_only",
+    "text_length": 886,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

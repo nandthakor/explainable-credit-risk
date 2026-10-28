@@ -1,0 +1,13 @@
+{
+  "instance_id": 34,
+  "case_type": "true_positive",
+  "arm": "shap_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted HIGH RISK (likely to default) (confidence: 80.4%) for this applicant.\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Revolving Util (value: 1) - strongly increases the prediction (impact: +1.4135)\n  2. Late 30 59 Days (value: 1) - strongly increases the prediction (impact: +0.5077)\n  3. Age (value: 35) - moderately increases the prediction (impact: +0.3383)\n  4. Real Estate Loans (value: 0) - moderately decreases the prediction (impact: -0.1334)\n  5. Monthly Income (value: 2083) - moderately increases the prediction (impact: +0.1018)\n\nIn plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.\n\nDo not suggest what the applicant could do differently â€” only explain the reasoning behind THIS decision.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model flagged this application as high risk because several key pieces of information point toward a higher chance of missing payments.  \n\n1. **Revolving utilization is at its maximum** – the applicant is using all of the credit that’s available, which strongly raises concern.  \n2. **A recent late payment (30‑59 days)** was recorded, adding further worry.  \n3. **Age of 35** contributes a modest increase in risk, as younger borrowers are viewed as slightly less stable.  \n4. **No real‑estate loans** means the applicant lacks the lower‑risk loan type that would have helped balance the score.  \n5. **Monthly income of $2,083** is modest and adds a small amount of risk.  \n\nTogether, these factors lead the model to conclude the applicant is likely to default.",
+  "flesch_kincaid_grade": 9.58,
+  "flesch_reading_ease": 57.15,
+  "word_count": 121,
+  "timestamp": "2026-09-19T16:36:46.998353+00:00"
+}

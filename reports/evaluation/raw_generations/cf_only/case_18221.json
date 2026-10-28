@@ -1,0 +1,29 @@
+{
+  "case_id": 18221,
+  "arm": "cf_only",
+  "text": "At this time the system does not identify any single change that would automatically move your application into the \u201capproved\u201d category.\u202fHowever, you can still strengthen your overall credit profile, which will improve future decisions.\u202fFocus on paying down existing balances so that you use a smaller portion of each credit limit, and avoid opening many new accounts at once.\u202fIf you have any credit cards or loans that you can refinance at a lower rate, doing so can lower your monthly obligations and show lenders you manage debt responsibly.\u202fKeeping a steady job and maintaining regular, on\u2011time payments on all current obligations will also help.\u202fThese steps won\u2019t guarantee an immediate decision change, but they are proven ways to boost your creditworthiness over time.",
+  "word_count": 125,
+  "verification_result": {
+    "case_id": 18221,
+    "arm": "cf_only",
+    "text_length": 775,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

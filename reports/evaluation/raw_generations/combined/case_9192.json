@@ -1,0 +1,32 @@
+{
+  "case_id": 9192,
+  "arm": "combined",
+  "text": "**Why the model made this decision**\n\nThe model looks at a few key pieces of your credit profile.  \n1. **Revolving credit utilization** \u2013 You are using about\u202f78\u202f% of the credit you have available. This high balance makes the model think you are more likely to miss a payment, so it adds to the risk score.  \n2. **Times 30\u201159 days past due** \u2013 You have no recent 30\u2011 to 59\u2011day late payments. That absence lowers the risk score.  \n3. **Number of open credit lines & loans** \u2013 You currently have five open accounts. Having several active accounts spreads out your debt and also pulls the risk score down.\n\nTaken together, the positive factors outweigh the high utilization, so the model classifies you as **low\u2011risk** overall, even though the estimated default probability is still relatively high.\n\n**What you can do to improve**\n\nAt this time, the system could not identify any feasible, constraint\u2011checked actions that would reliably change the decision. The most effective step you can take on your own is to lower the amount you owe on revolving accounts\u2014paying down balances will reduce utilization and should improve the risk assessment in future reviews.",
+  "word_count": 194,
+  "verification_result": {
+    "case_id": 9192,
+    "arm": "combined",
+    "text_length": 1159,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 1,
+    "numerical_accuracy": 0.3333333333333333,
+    "numerical_mismatches": [
+      "2 (=2.00)",
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

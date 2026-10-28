@@ -1,0 +1,29 @@
+{
+  "case_id": 13808,
+  "arm": "combined",
+  "text": "**Why the model gave this decision**\n\nThe model looks at several things that tend to raise the chance of missing a payment. Your revolving\u2011credit utilization is about 48\u202f% of the limit you have available; using almost half of your credit line is a factor that pushes the default risk higher. You also have three real\u2011estate loans or mortgages, and each additional mortgage adds to the risk score. Finally, you currently have 13 open credit lines and loans; having many active accounts is another element that increases the model\u2019s view of risk. Even with these risk\u2011increasing factors, the overall assessment still falls into the \u201clow\u2011risk\u201d category, meaning the model believes you are unlikely to default overall.\n\n**What you can do next**\n\nAt this time the system could not identify a specific, feasible step that would reliably change the decision. If you wish to explore ways to strengthen your credit profile, you might consider reducing the balances on your revolving accounts or consolidating some of your loans, but the model does not point to a guaranteed path for a different outcome.",
+  "word_count": 180,
+  "verification_result": {
+    "case_id": 13808,
+    "arm": "combined",
+    "text_length": 1094,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

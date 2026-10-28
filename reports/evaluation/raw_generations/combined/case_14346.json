@@ -1,0 +1,29 @@
+{
+  "case_id": 14346,
+  "arm": "combined",
+  "text": "**Why the model flagged a high\u2011risk decision**  \nThe model saw that almost all of your revolving credit is being used (utilization\u202f\u2248\u202f100%). That single factor adds the biggest boost to the predicted chance of default. Your age of 41 adds a small additional increase. On the positive side, having only one open credit line slightly lowers the risk, but it is not enough to offset the very high utilization.\n\n**How you can improve the decision**  \nThe model shows that lowering your revolving\u2011",
+  "word_count": 83,
+  "verification_result": {
+    "case_id": 14346,
+    "arm": "combined",
+    "text_length": 491,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

@@ -1,0 +1,13 @@
+{
+  "instance_id": 1721,
+  "case_type": "high_income_low_error",
+  "arm": "shap_only_regression",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated income estimation to a loan officer, who will relay it to the applicant.\n\nThe model estimated this applicant's monthly income at $8,401/month (actual reported income: $8,400/month).\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Real Estate Loans (value: 2) - strongly increases the prediction (impact: +1172.2782)\n  2. Num Dependents (value: 2) - strongly increases the prediction (impact: +858.6095)\n  3. Age (value: 37) - strongly decreases the prediction (impact: -431.8015)\n  4. Debt Ratio (value: 0.3121) - strongly increases the prediction (impact: +62.4574)\n  5. Revolving Util (value: 0.3916) - strongly decreases the prediction (impact: -42.5673)\n\nIn plain, non-technical language, explain why the model arrived at this income estimate, referencing only the factors listed above.\n\nDo not suggest what the applicant could do to change the estimate â€” only explain how the model reached THIS figure.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model looked at five key pieces of information you provided and added up how each one nudged the income guess up or down.\n\n1. **Real‑estate loans = 2** – Having two real‑estate loans signaled higher earnings, pushing the estimate up by about $1,172.  \n2. **Number of dependents = 2** – Two dependents also suggested a larger household income, adding roughly $859.  \n3. **Age = 37** – At 37 years old, the model expected a slightly lower income, taking about $432 off the total.  \n4. **Debt‑to‑income ratio = 0.3121** – A moderate debt ratio indicated the ability to handle more income, raising the guess by about $62.  \n5. **Revolving‑credit utilization = 0.3916** – Using about 39 % of revolving credit suggested a modest reduction, lowering the estimate by roughly $43.\n\nWhen the model combined these adjustments, it arrived at an estimated monthly income of **$8,401**, which is very close to the $8,400 you reported.",
+  "flesch_kincaid_grade": 10.41,
+  "flesch_reading_ease": 48.72,
+  "word_count": 143,
+  "timestamp": "2026-09-19T16:38:06.319562+00:00"
+}

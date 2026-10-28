@@ -1,0 +1,24 @@
+You are evaluating an AI-generated explanation of an automated credit decision. Your job is to judge the quality of the explanation on three dimensions.
+
+Here is the actual data for this applicant:
+
+**Predicted outcome:** {predicted_outcome}
+**Instance features:** {instance_features}
+
+{ground_truth_section}
+
+**Explanation to evaluate:**
+---
+{explanation_text}
+---
+
+Rate the explanation on these three dimensions using integer scores from 1 (worst) to 10 (best):
+
+1. **Faithfulness** (1-10): Does the explanation accurately reflect ONLY the provided data without contradicting it, inventing facts, or hallucinating information that was not in the ground truth?
+
+2. **Understandability** (1-10): Would a non-technical reader (someone with no data science background) easily understand this explanation?
+
+3. **Actionability** (1-10): Does the explanation give concrete, specific next steps the applicant could take? Score honestly low if the text explicitly does NOT attempt to provide advice — that is a valid design choice, not a flaw.
+
+Return ONLY valid JSON with exactly these keys, no other text:
+{{"faithfulness_score": <int>, "faithfulness_reasoning": "<one sentence>", "understandability_score": <int>, "understandability_reasoning": "<one sentence>", "actionability_score": <int>, "actionability_reasoning": "<one sentence>"}}

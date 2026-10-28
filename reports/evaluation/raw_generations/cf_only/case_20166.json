@@ -1,0 +1,29 @@
+{
+  "case_id": 20166,
+  "arm": "cf_only",
+  "text": "At this time the model has not identified any specific changes that are guaranteed to switch the decision for you.\u202fThat means there isn\u2019t a single, verified step that will automatically move you into a higher\u2011risk category.\u202fNevertheless, lenders generally look for a stronger overall financial picture.\u202fYou can work on reducing the total amount you owe across all accounts, keep any existing credit lines open and in good standing, and make sure your income remains steady and well documented.\u202fAdding a reliable source of income or increasing your savings can also help demonstrate repayment ability.\u202fWhile none of these actions are formally verified to change the model\u2019s outcome, they are common ways to improve a credit profile and increase the chance of approval.",
+  "word_count": 124,
+  "verification_result": {
+    "case_id": 20166,
+    "arm": "cf_only",
+    "text_length": 767,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

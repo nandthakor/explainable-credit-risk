@@ -1,0 +1,29 @@
+{
+  "case_id": 21252,
+  "arm": "cf_only",
+  "text": "Here\u2019s what you can do to bring your risk score down to a level that\u2019s more likely to get approved:\n\n1. **Cut your revolving\u2011credit usage** \u2013 Aim to keep the balance on credit cards and other revolving accounts at about 10\u202f% of the total credit limit. Pay down existing balances and avoid charging more until you reach that level.\n\n2. **Lower your debt\u2011to\u2011income ratio** \u2013 Try to bring the amount you owe down to roughly 30\u202f% of your monthly income. This can be done by paying off loans, refinancing to a lower payment, or increasing your income through a side job or overtime.\n\n3. **Reduce the number of open accounts** \u2013 Close or consolidate a few of the smaller credit lines or loans so you have about eight active accounts instead of eleven. Choose the ones with the highest balances or fees to close first.\n\nTaking these steps should move your profile into a safer range for approval.",
+  "word_count": 160,
+  "verification_result": {
+    "case_id": 21252,
+    "arm": "cf_only",
+    "text_length": 889,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 3,
+    "recourse_actions_verified": 3,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,76 @@
+{
+  "case_id": 5254,
+  "prediction": {
+    "predicted_class": 1,
+    "predicted_proba": 0.89896,
+    "raw_log_odds": 2.18567,
+    "threshold": 0.5,
+    "actual_label": 1,
+    "case_category": "true_positive"
+  },
+  "shap_attributions": {
+    "base_value": -0.76578,
+    "top_features": [
+      {
+        "rank": 1,
+        "feature_name": "late_90_days",
+        "feature_value": 1.0,
+        "shap_value": 1.17932,
+        "direction": "increases_risk",
+        "abs_shap": 1.17932
+      },
+      {
+        "rank": 2,
+        "feature_name": "late_30_59_days",
+        "feature_value": 2.0,
+        "shap_value": 1.1571,
+        "direction": "increases_risk",
+        "abs_shap": 1.1571
+      },
+      {
+        "rank": 3,
+        "feature_name": "revolving_util",
+        "feature_value": 0.811349054,
+        "shap_value": 1.02042,
+        "direction": "increases_risk",
+        "abs_shap": 1.02042
+      },
+      {
+        "rank": 4,
+        "feature_name": "age",
+        "feature_value": 70.0,
+        "shap_value": -0.34484,
+        "direction": "decreases_risk",
+        "abs_shap": 0.34484
+      },
+      {
+        "rank": 5,
+        "feature_name": "late_60_89_days",
+        "feature_value": 0.0,
+        "shap_value": -0.06311,
+        "direction": "decreases_risk",
+        "abs_shap": 0.06311
+      }
+    ],
+    "all_shap_values": {
+      "revolving_util": 1.02042,
+      "age": -0.34484,
+      "late_30_59_days": 1.1571,
+      "debt_ratio": 0.03885,
+      "monthly_income": 0.06154,
+      "open_credit_lines": -0.05894,
+      "late_90_days": 1.17932,
+      "real_estate_loans": -0.00245,
+      "late_60_89_days": -0.06311,
+      "num_dependents": -0.01755,
+      "monthly_income_missing": -0.01889
+    }
+  },
+  "counterfactual_recourse": {
+    "num_requested": 3,
+    "num_generated": 0,
+    "num_passed_funnel": 0,
+    "candidates": [],
+    "reason_skipped": "dice_error: No counterfactuals found for any of the query points! Kindly check your configuration."
+  }
+}

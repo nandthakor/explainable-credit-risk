@@ -1,0 +1,31 @@
+{
+  "case_id": 21252,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nOur model looks at the information it has about you and estimates the chance you might miss a payment. Three key points pushed the risk higher:  \n\n1. **Revolving credit utilization\u202f\u2248\u202f94\u202f%** \u2013 you are using almost all of the credit that\u2019s available to you. Carrying such a high balance signals difficulty managing debt.  \n2. **Two accounts 30\u201159 days past due** \u2013 recent late payments show a pattern of missed deadlines, which the model sees as a warning sign.  \n3. **Age\u202f=\u202f44** \u2013 while age itself isn\u2019t a problem, in combination with the other factors it adds a small increase to the risk score.  \n\nTogether, these factors led the system to label the application as high risk, with an estimated 85\u202f% chance of default.\n\n**How you can improve the outlook**  \nYou can lower the risk estimate by making a few changes:  \n\n* Reduce the balance on your revolving accounts so utilization drops from about 94\u202f% to around 10\u202f%.  \n* Lower your debt\u2011to\u2011income ratio from roughly 57\u202f% to 30\u202f% by paying down debt or increasing income.  \n* Close or consolidate a few credit lines so the total number of open accounts falls from 11 to about 8.  \n\nMaking these adjustments can bring the projected default probability down to the mid\u201140\u202f% range, giving you a stronger chance of approval in the future.",
+  "word_count": 233,
+  "verification_result": {
+    "case_id": 21252,
+    "arm": "combined",
+    "text_length": 1317,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 11,
+    "numbers_matched": 10,
+    "numerical_accuracy": 0.9090909090909091,
+    "numerical_mismatches": [
+      "40 (=40.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 3,
+    "recourse_actions_verified": 3,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

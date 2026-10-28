@@ -1,0 +1,29 @@
+{
+  "case_id": 15659,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because three key behaviors are pushing the default probability upward. First, the borrower has been late on payments in the 30\u2011to\u201159\u2011day range twice; each late occurrence adds a strong positive weight to the risk score. Second, there is also one instance of a 60\u2011to\u201189\u2011day late payment, which further raises the risk. Finally, the applicant is using about 59\u202f% of their revolving credit limit, a level that the model associates with higher default likelihood. Together, these three factors contribute the most to the 87.7\u202f% probability of default, leading the system to label the loan as high risk.",
+  "word_count": 105,
+  "verification_result": {
+    "case_id": 15659,
+    "arm": "shap_only",
+    "text_length": 645,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

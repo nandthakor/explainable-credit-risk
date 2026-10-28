@@ -1,0 +1,29 @@
+{
+  "case_id": 8719,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because three key pieces of their credit profile pushed the default probability upward. First, the applicant has a recent delinquency\u2014one account is 30\u201159 days past due. That single late payment added the largest boost to the risk score. Second, the applicant is using almost half of their available revolving credit (about 49\u202f%). High utilization signals that they may be relying heavily on credit, which further increased the risk. Finally, the applicant\u2019s age of 42 contributed additional risk, as the model has learned that, in this context, that age is associated with a higher chance of default. Together, these factors drove the model\u2019s 58.6\u202f% default probability.",
+  "word_count": 114,
+  "verification_result": {
+    "case_id": 8719,
+    "arm": "shap_only",
+    "text_length": 717,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

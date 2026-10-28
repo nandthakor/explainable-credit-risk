@@ -1,0 +1,33 @@
+{
+  "case_id": 14206,
+  "arm": "cf_only",
+  "text": "Although the current model does not identify any single change that will automatically flip the decision, you can still strengthen your overall credit profile. Focus on paying down any high balances so your credit\u2011card utilization stays low. Keep all existing accounts current and avoid missing payments. If you have any outstanding loans, try to reduce the principal faster when possible. Regularly review your credit report for errors and dispute any inaccuracies. Maintaining a steady, low\u2011debt pattern over several months will generally improve the score that lenders see and increase the chance of approval in future applications.",
+  "word_count": 96,
+  "verification_result": {
+    "case_id": 14206,
+    "arm": "cf_only",
+    "text_length": 635,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [
+      "No feasible CFs exist, but text makes specific recourse claims"
+    ],
+    "flags": [
+      "RECOURSE_UNSUPPORTED:no_feasible_cfs"
+    ],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

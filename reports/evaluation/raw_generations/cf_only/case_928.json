@@ -1,0 +1,29 @@
+{
+  "case_id": 928,
+  "arm": "cf_only",
+  "text": "To move from a \u201chigh\u2011risk\u201d rating to a much safer profile, focus on two key numbers:\n\n1. **Revolving\u2011credit utilization** \u2013 This is the amount you owe on credit\u2011card balances compared with each card\u2019s limit. Aim to keep the overall balance at about\u202f10\u202f% of the total credit available. You can do this by paying down existing balances, spreading purchases across several cards, or asking your lenders for a higher credit limit (but only if you can resist using the extra space).\n\n2. **Debt\u2011to\u2011income (DTI) ratio** \u2013 This measures total monthly debt payments versus your gross monthly income. Try to bring it down to\u202f30\u202f% or lower. Options include paying off or consolidating loans, refinancing to a lower\u2011interest loan, or increasing your income through a side job or raise.\n\nBy lowering both figures to the targets above, your default probability should drop well below the current level, improving your chances of loan approval.",
+  "word_count": 154,
+  "verification_result": {
+    "case_id": 928,
+    "arm": "cf_only",
+    "text_length": 929,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

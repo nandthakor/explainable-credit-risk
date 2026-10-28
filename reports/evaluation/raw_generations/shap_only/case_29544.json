@@ -1,0 +1,31 @@
+{
+  "case_id": 29544,
+  "arm": "shap_only",
+  "text": "The model looked at three key pieces of the applicant\u2019s credit history. First, the borrower has one account that was 30\u201159 days past due; this adds about\u202f0.50 points to the default\u2011risk side, nudging the score upward. Second, the applicant\u2019s revolving\u2011credit utilization is low\u2014about\u202f10\u202f% of the available limit\u2014which pulls the risk down by roughly\u202f0.44 points, a strong mitigating factor. Third, the person holds a relatively high number of open credit lines and loans (19), which contributes another\u202f0.43 points to the risk side. When the model combines these influences, the low utilization outweighs the two risk\u2011increasing signals, leading it to label the overall profile as low risk despite the listed probability.",
+  "word_count": 114,
+  "verification_result": {
+    "case_id": 29544,
+    "arm": "shap_only",
+    "text_length": 720,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 1,
+    "numerical_accuracy": 0.5,
+    "numerical_mismatches": [
+      "10 (=10.00)"
+    ],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

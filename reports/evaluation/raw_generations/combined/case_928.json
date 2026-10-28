@@ -1,0 +1,29 @@
+{
+  "case_id": 928,
+  "arm": "combined",
+  "text": "**Why the model gave a high\u2011risk decision**  \nThe model looks most closely at how much of your revolving credit you are using. Right now you are using almost 100\u202f% of the available limit, and that factor alone adds a large amount of risk. You have no recent 30\u2011 to 59\u2011day past\u2011due accounts and you are 60 years old",
+  "word_count": 59,
+  "verification_result": {
+    "case_id": 928,
+    "arm": "combined",
+    "text_length": 314,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 1,
+    "recourse_actions_verified": 1,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

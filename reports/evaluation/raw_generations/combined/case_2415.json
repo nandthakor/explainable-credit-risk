@@ -1,0 +1,31 @@
+{
+  "case_id": 2415,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model classified you as a low\u2011risk applicant overall, even though the calculated default probability is about 47\u202f%. It looked at three key pieces of information:  \n\n1. **30\u2011 to 59\u2011day past\u2011due account** \u2013 Having one account that was 30\u201159 days late added to the risk score, making default a bit more likely.  \n2. **Debt\u2011to\u2011income ratio** \u2013 Your ratio (about 3043) actually lowered the risk score, suggesting that, relative to your income, your overall debt level is viewed as manageable.  \n3. **Revolving\u2011credit utilization** \u2013 Using roughly 46\u202f% of your available revolving credit increased the risk score, because higher utilization can signal tighter cash flow.\n\nTogether, the positive (risk\u2011increasing) effects of the recent late payment and credit\u2011utilization were outweighed by the mitigating effect of your debt\u2011to\u2011",
+  "word_count": 132,
+  "verification_result": {
+    "case_id": 2415,
+    "arm": "combined",
+    "text_length": 865,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 5,
+    "numbers_matched": 4,
+    "numerical_accuracy": 0.8,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

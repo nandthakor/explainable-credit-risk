@@ -1,0 +1,31 @@
+{
+  "case_id": 24694,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: LOW RISK \u2014 unlikely to default\nEstimated Default Probability: 29.8%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 29.8% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. NUMBER OF REAL ESTATE LOANS OR MORTGAGES\n   Observed value : 3\n   Risk impact    : This factor increases the estimated default risk (+0.258).\n   Interpretation : 3 real estate loan(s). These loans contribute to the overall debt profile.\n\n2. APPLICANT AGE\n   Observed value : 43\n   Risk impact    : This factor increases the estimated default risk (+0.182).\n   Interpretation : At 43 years old, the applicant's age is associated with shorter credit history.\n\n3. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 0\n   Risk impact    : This factor decreases the estimated default risk (-0.152).\n   Interpretation : No recorded 30-59-day late payments, which is a positive signal.\n\nRECOURSE RECOMMENDATIONS\n========================================\nThe model currently assesses this applicant as low risk. No recourse action is needed at this time. Maintaining current financial habits is recommended.",
+  "word_count": 198,
+  "verification_result": {
+    "case_id": 24694,
+    "arm": "deterministic_template",
+    "text_length": 1433,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 8,
+    "numerical_accuracy": 0.8888888888888888,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

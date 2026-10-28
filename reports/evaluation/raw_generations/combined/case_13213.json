@@ -1,0 +1,31 @@
+{
+  "case_id": 13213,
+  "arm": "combined",
+  "text": "**Why the model declined the application**  \nThe model sees a very high chance (87\u202f%) that the loan could go into default. Three key factors are driving that result:  \n\n1. **Revolving credit utilization** \u2013 Your credit\u2011card balances are essentially at the full limit (99.999\u202f%). Using almost all of the credit you have is a strong signal of financial strain, and it adds the biggest boost to the risk score.  \n2. **Times 30\u201159 days past due** \u2013 You have two recent payments that were 30\u201159 days late. Each late payment further raises the likelihood of future trouble.  \n3. **Age** \u2013 At 29\u202fyears old, the model assigns a modest additional risk compared with older borrowers.\n\n**How you can improve the decision**  \nThe only actionable change the model identified is to lower your revolving\u2011credit utilization. Paying down the balances so that utilization drops from virtually 100\u202f% to 0\u202f% could cut the predicted default probability to about 45.7\u202f%, moving you into a much more favorable range. Reducing the balances on your credit cards is the most direct step you can take right now to improve your chances of approval.",
+  "word_count": 190,
+  "verification_result": {
+    "case_id": 13213,
+    "arm": "combined",
+    "text_length": 1120,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 7,
+    "numbers_matched": 6,
+    "numerical_accuracy": 0.8571428571428571,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 1,
+    "recourse_actions_verified": 1,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

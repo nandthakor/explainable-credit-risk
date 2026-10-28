@@ -1,0 +1,29 @@
+{
+  "case_id": 20166,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low risk** overall, even though the calculated probability of default is 26.4%. It arrived at this conclusion by weighing three key pieces of information:\n\n* **Revolving\u2011credit utilization** is about 14\u202f% of the available limit. Because the balance is well below the credit line, this factor pulls the risk score down, indicating a lower chance of default.  \n* **Age** is 35 years. In this model, being in this age range adds a modest amount of risk, nudging the score upward.  \n* **Times 30\u201159 days past due** is zero. Having no recent late payments reduces the risk score.\n\nTogether, the strong positive effect of low utilization and no recent delinquencies outweighs the modest risk added by the applicant\u2019s age, leading the model to classify the loan as low risk.",
+  "word_count": 134,
+  "verification_result": {
+    "case_id": 20166,
+    "arm": "shap_only",
+    "text_length": 804,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "feature_name": "real_estate_loans",
+    "feature_value": 2.0,
+    "shap_value": 1172.2782243492334
+  },
+  {
+    "feature_name": "num_dependents",
+    "feature_value": 2.0,
+    "shap_value": 858.6094541315651
+  },
+  {
+    "feature_name": "age",
+    "feature_value": 37.0,
+    "shap_value": -431.8014512698846
+  },
+  {
+    "feature_name": "debt_ratio",
+    "feature_value": 0.312105702,
+    "shap_value": 62.457376053319045
+  },
+  {
+    "feature_name": "revolving_util",
+    "feature_value": 0.391611038,
+    "shap_value": -42.56732660695095
+  },
+  {
+    "feature_name": "open_credit_lines",
+    "feature_value": 9.0,
+    "shap_value": 23.714442982025798
+  },
+  {
+    "feature_name": "late_30_59_days",
+    "feature_value": 0.0,
+    "shap_value": 20.873754774028264
+  },
+  {
+    "feature_name": "late_90_days",
+    "feature_value": 0.0,
+    "shap_value": 18.00840399278843
+  },
+  {
+    "feature_name": "late_60_89_days",
+    "feature_value": 0.0,
+    "shap_value": 8.753736219954998
+  },
+  {
+    "feature_name": "monthly_income_missing",
+    "feature_value": 0.0,
+    "shap_value": 0.0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "case_id": 2415,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low\u2011risk**, even though the overall default probability sits at 47\u202f%. It reached this conclusion by weighing three key signals:\n\n1. **Recent payment delay** \u2013 The applicant has one account that is 30\u201159 days past due. This single late payment pushes the risk higher (a positive SHAP of\u202f+0.503).  \n2. **Debt\u2011to\u2011income ratio** \u2013 The applicant\u2019s ratio is 3,043, which the model interprets as a strong sign of repayment ability, pulling the risk down (negative SHAP of\u202f\u20110.333).  \n3. **Revolving credit utilization** \u2013 About 46\u202f% of the revolving credit line is used. This level adds to the risk (positive SHAP of\u202f+0.290).\n\nTogether, the strong debt\u2011to\u2011income signal outweighs the two risk\u2011increasing factors, leading the model to classify the applicant as low risk.",
+  "word_count": 128,
+  "verification_result": {
+    "case_id": 2415,
+    "arm": "shap_only",
+    "text_length": 798,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 5,
+    "numbers_matched": 4,
+    "numerical_accuracy": 0.8,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

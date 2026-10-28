@@ -1,0 +1,29 @@
+{
+  "case_id": 25451,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because of three recent credit\u2011behavior signals that each push the default probability upward. First, the borrower has been 60\u201189 days past due on two accounts (value\u202f=\u202f2), and this alone adds about\u202f+2.0 points to the risk score. Second, there are three instances of 30\u201159\u2011day delinquencies (value\u202f=\u202f3), contributing another\u202f+1.8 points. Finally, the revolving\u2011credit utilization is about\u202f62\u202f% of the available limit, which adds roughly\u202f+0.6 points. Together, these three factors raise the model\u2019s estimate of default risk to 97.6\u202f%, resulting in the \u201chigh risk\u201d decision.",
+  "word_count": 98,
+  "verification_result": {
+    "case_id": 25451,
+    "arm": "shap_only",
+    "text_length": 618,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 5,
+    "numbers_matched": 5,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

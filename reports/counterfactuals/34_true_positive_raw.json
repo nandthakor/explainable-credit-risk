@@ -1,0 +1,166 @@
+[
+  {
+    "cf_index": 0,
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 1.0,
+        "cf_value": 0.6,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "late_30_59_days",
+        "original_value": 1.0,
+        "cf_value": 0.0,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.355086,
+        "cf_value": 0.2,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 10.0,
+        "cf_value": 4.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "cf_predicted_class": 0,
+    "cf_predicted_proba": 0.422,
+    "proximity_score": 0.200666,
+    "num_features_changed": 4
+  },
+  {
+    "cf_index": 1,
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 1.0,
+        "cf_value": 0.5,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "late_30_59_days",
+        "original_value": 1.0,
+        "cf_value": 0.0,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.355086,
+        "cf_value": 0.4,
+        "direction": "increase"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 10.0,
+        "cf_value": 5.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "cf_predicted_class": 0,
+    "cf_predicted_proba": 0.3819,
+    "proximity_score": 0.219216,
+    "num_features_changed": 4
+  },
+  {
+    "cf_index": 2,
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 1.0,
+        "cf_value": 0.1,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.355086,
+        "cf_value": 0.3,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 10.0,
+        "cf_value": 6.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "cf_predicted_class": 0,
+    "cf_predicted_proba": 0.3505,
+    "proximity_score": 0.29738,
+    "num_features_changed": 3
+  },
+  {
+    "cf_index": 3,
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 1.0,
+        "cf_value": 0.1,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.355086,
+        "cf_value": 0.1,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 10.0,
+        "cf_value": 4.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "cf_predicted_class": 0,
+    "cf_predicted_proba": 0.3324,
+    "proximity_score": 0.308888,
+    "num_features_changed": 3
+  },
+  {
+    "cf_index": 4,
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 1.0,
+        "cf_value": 0.6,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "late_30_59_days",
+        "original_value": 1.0,
+        "cf_value": 0.0,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.355086,
+        "cf_value": 0.9,
+        "direction": "increase"
+      },
+      {
+        "feature_name": "monthly_income",
+        "original_value": 2083.0,
+        "cf_value": 2076.0,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 10.0,
+        "cf_value": 7.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "cf_predicted_class": 0,
+    "cf_predicted_proba": 0.4518,
+    "proximity_score": 0.150204,
+    "num_features_changed": 5
+  }
+]

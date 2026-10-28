@@ -1,0 +1,29 @@
+{
+  "case_id": 10920,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low\u2011risk** because the strongest signals pulled the default score down.  \n\n- **Debt\u2011to\u2011Income ratio** is recorded at **3,133**. In the model this high\u2011ratio value contributed a **\u20110.344** change, meaning it lowered the estimated chance of default.  \n- The applicant has **no accounts that are 30\u201159 days past due**. That clean payment history added another **\u20110.152** to the risk, further reducing the default likelihood.  \n- The only factor that nudged the score upward was the **two real\u2011estate or mortgage loans** the applicant holds. This added **+0.128**, a modest increase in risk.  \n\nOverall, the two negative contributions outweighed the single positive one, leading the model to conclude the applicant is unlikely to default.",
+  "word_count": 116,
+  "verification_result": {
+    "case_id": 10920,
+    "arm": "shap_only",
+    "text_length": 771,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 25594,
+  "arm": "cf_only",
+  "text": "The review did not identify any single change that is guaranteed to flip the decision for you.\u202fThat means there isn\u2019t a specific, model\u2011verified step that will automatically move you from \u201clow risk\u201d to an approved status.\u202fNevertheless, you can still strengthen your overall credit profile, which improves the odds of approval in future reviews.\u202fFocus on paying down existing balances to keep your credit\u2011card utilization below\u202f30\u202fpercent, avoid opening new credit lines or making hard inquiries, and maintain steady, on\u2011time payments on all current obligations.\u202fKeeping your employment and income stable also helps.\u202fThese actions won\u2019t guarantee a decision change, but they are the most effective ways to boost your credit health.",
+  "word_count": 114,
+  "verification_result": {
+    "case_id": 25594,
+    "arm": "cf_only",
+    "text_length": 730,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

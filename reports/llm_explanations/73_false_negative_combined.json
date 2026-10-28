@@ -1,0 +1,13 @@
+{
+  "instance_id": 73,
+  "case_type": "false_negative",
+  "arm": "combined",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted LOW RISK (unlikely to default) (confidence: 22.2%) for this applicant.\n\nThe top contributing factors were:\n  1. Revolving Util (value: 0.102) - moderately decreases the prediction (impact: -0.4492)\n  2. Open Credit Lines (value: 13) - moderately increases the prediction (impact: +0.1817)\n  3. Late 30 59 Days (value: 0) - moderately decreases the prediction (impact: -0.1466)\n  4. Monthly Income (value: 2034) - moderately increases the prediction (impact: +0.1030)\n  5. Late 90 Days (value: 0) - slightly decreases the prediction (impact: -0.0904)\n\nAdditionally, analysis shows that if the following changed:\n(No feasible changes were found that would flip the decision.)\nthe decision would likely flip to the opposite outcome.\n\nIn plain, non-technical language, first briefly explain why the decision was made, then explain what the applicant could realistically do to change it.\n\nKeep it under 200 words.\n",
+  "raw_response": "**Why the decision was made**\n\nThe model sees this applicant as a low‑risk borrower. The biggest help comes from a very low credit‑card balance relative to the limit (revolving utilization), which pulls the risk score down. The applicant also has no recent late payments (30‑59‑day or 90‑day delinquencies), which further reduces risk. A modest number of open credit lines and a monthly income of about $2,000 add a small amount of risk, but not enough to outweigh the positives.\n\n**What the applicant can do to keep or improve the picture**\n\n- **Keep credit‑card balances low** – staying well under the credit limit continues to be a strong positive.\n- **Pay every bill on time** – avoiding any late payments maintains the low‑risk signal.\n- **Maintain or modestly increase income** – a higher, stable income can offset other risk factors.\n- **Add new credit only if needed** – opening many new accounts can raise risk, so any new credit should be taken carefully.\n\nBecause the model already rates the applicant as low risk, there’s no single realistic change that would flip the decision to a higher‑risk outcome. Continuing these good habits will keep the favorable rating.",
+  "flesch_kincaid_grade": 10.82,
+  "flesch_reading_ease": 50.78,
+  "word_count": 187,
+  "timestamp": "2026-09-19T16:37:41.655660+00:00"
+}

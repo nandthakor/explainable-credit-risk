@@ -1,0 +1,31 @@
+{
+  "case_id": 12740,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nOur model looks at the patterns that most affect the chance of missing a payment. In your case, two factors stood out:  \n\n1. **Revolving credit utilization** \u2013 You are using about 92\u202f% of the credit that\u2019s available to you. Carrying such a high balance signals a higher likelihood of default, and it contributed the most to the risk score.  \n2. **Recent past\u2011due accounts** \u2013 You have one account that was 30\u201159 days past due. Even a single recent late payment raises the risk assessment.  \n\nThe third factor, **the number of open credit lines (six)**, slightly lowered the risk, but its effect was not enough to offset the two stronger risk drivers. As a result, the model estimated a 66.8\u202f% probability of default and labeled the application as high risk.\n\n**What you can do next**  \nWe examined possible steps that could change the outcome and, given the current information, no feasible, verified path was identified. This means that, with the data we have, there isn\u2019t a clear, actionable change that would immediately flip the decision.  \n\nIf you are able to reduce the balance on your revolving accounts and bring any recent past\u2011due balances current, those actions would directly address the two main risk factors and could improve future credit decisions. Feel free to reach out for guidance on how to create a repayment plan or explore other credit\u2011building options.",
+  "word_count": 235,
+  "verification_result": {
+    "case_id": 12740,
+    "arm": "combined",
+    "text_length": 1408,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 2,
+    "numerical_accuracy": 0.6666666666666666,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

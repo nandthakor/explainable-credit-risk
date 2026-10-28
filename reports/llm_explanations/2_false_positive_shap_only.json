@@ -1,0 +1,13 @@
+{
+  "instance_id": 2,
+  "case_type": "false_positive",
+  "arm": "shap_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted HIGH RISK (likely to default) (confidence: 78.3%) for this applicant.\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Late 30 59 Days (value: 3) - strongly increases the prediction (impact: +1.8165)\n  2. Revolving Util (value: 0.5853) - strongly increases the prediction (impact: +0.5533)\n  3. Real Estate Loans (value: 0) - moderately decreases the prediction (impact: -0.1334)\n  4. Age (value: 59) - moderately decreases the prediction (impact: -0.1300)\n  5. Late 90 Days (value: 0) - slightly decreases the prediction (impact: -0.0904)\n\nIn plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.\n\nDo not suggest what the applicant could do differently â€” only explain the reasoning behind THIS decision.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model flagged this applicant as high‑risk because of a few key points in their credit history:\n\n1. **Recent late payments** – The applicant has a 30‑day late payment that is 59 days past due. This alone pushes the risk score up sharply.  \n2. **High credit‑card usage** – About 58 % of the applicant’s revolving credit limit is being used, which the model sees as a strong sign of potential difficulty paying back.  \n3. **Real‑estate loan balance** – Having no real‑estate loan slightly lowers the risk, but the effect is modest.  \n4. **Age** – At 59 years old, age modestly reduces the risk, though not enough to offset the other concerns.  \n5. **Very late payments** – There are no 90‑day delinquencies, which also nudges the risk a little lower.\n\nOverall, the recent 30‑day late payment and high credit‑card utilization dominate the assessment, leading the model to label the applicant as high risk.",
+  "flesch_kincaid_grade": 10.04,
+  "flesch_reading_ease": 55.62,
+  "word_count": 146,
+  "timestamp": "2026-09-19T16:37:16.470531+00:00"
+}

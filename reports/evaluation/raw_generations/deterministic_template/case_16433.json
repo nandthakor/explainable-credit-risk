@@ -1,0 +1,29 @@
+{
+  "case_id": 16433,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 68.4%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 68.4% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 100.0%\n   Risk impact    : This factor increases the estimated default risk (+1.412).\n   Interpretation : A utilization of 100.0% means the applicant is using a significant portion of available revolving credit. High utilization is one of the strongest predictors of default risk.\n\n2. NUMBER OF REAL ESTATE LOANS OR MORTGAGES\n   Observed value : 3\n   Risk impact    : This factor increases the estimated default risk (+0.258).\n   Interpretation : 3 real estate loan(s). These loans contribute to the overall debt profile.\n\n3. APPLICANT AGE\n   Observed value : 42\n   Risk impact    : This factor increases the estimated default risk (+0.201).\n   Interpretation : At 42 years old, the applicant's age is associated with shorter credit history.\n\nRECOURSE RECOMMENDATIONS\n========================================\nA feasible recourse pathway exists. The following 5 change(s) would reduce the estimated default probability from 68.4% to 46.1% (below the 50% threshold):\n\n  Step 1: Reduce revolving credit utilization (the share of available credit in use)\n    Current value : 100.0%\n    Target value  : 60.0%\n    Action        : Pay down revolving credit balances so total utilization drops from 100.0% to below 60.0%.\n  Step 2: Reduce debt-to-income ratio (total monthly debt obligations relative to income)\n    Current value : 0.4034\n    Target value  : 0.4\n    Action        : Reduce total monthly debt payments or increase income to bring the debt-to-income ratio from 0.40 to approximately 0.40.\n  Step 3: Increase monthly income\n    Current value : $9,780/month\n    Target value  : $9,791/month\n    Action        : Increase documented monthly income from $9,780 to at least $9,791.\n  Step 4: Increase number of open credit lines and loans\n    Current value : 8\n    Target value  : 12\n    Action        : Consider opening additional credit accounts to reach 12 total lines.\n  Step 5: Reduce number of real estate loans or mortgages\n    Current value : 3\n    Target value  : 1\n    Action        : Reduce real estate loans from 3 to 1.\n\nNote: These recommendations are derived from a domain-constrained counterfactual search. All suggested changes are directionally feasible (e.g., paying down debt, increasing income). The model predicts that implementing all steps simultaneously would change the assessment to low risk.",
+  "word_count": 412,
+  "verification_result": {
+    "case_id": 16433,
+    "arm": "deterministic_template",
+    "text_length": 2910,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 30,
+    "numbers_matched": 30,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 5,
+    "recourse_actions_verified": 5,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

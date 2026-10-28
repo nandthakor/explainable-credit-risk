@@ -1,0 +1,29 @@
+{
+  "case_id": 19600,
+  "arm": "cf_only",
+  "text": "At this time, the analysis did not identify any specific changes that are guaranteed to flip the decision to a higher\u2011risk rating. In other words, there isn\u2019t a single, verified action that will automatically improve the model\u2019s outcome. However, you can still work on overall credit health, which often helps future assessments. Focus on reducing any outstanding balances, keeping the amount you use on each credit line well below its limit, and making all current payments on time. Adding a modest, well\u2011managed credit account (such as a secured card) can also demonstrate responsible borrowing. These steps won\u2019t guarantee an",
+  "word_count": 99,
+  "verification_result": {
+    "case_id": 19600,
+    "arm": "cf_only",
+    "text_length": 628,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 13478,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as low\u2011risk even though the overall default probability is 16\u202f%. It arrived at that conclusion by weighing three key pieces of information. First, the applicant\u2019s revolving\u2011credit utilization is very low\u2014about 4\u202f% of the available balance\u2014and this factor pulls the risk score down strongly (a negative SHAP of\u202f\u20110.573). Second, the applicant is 42 years old; age adds a modest amount of risk (a positive SHAP of\u202f+0.201). Finally, the person has four open credit lines and loans, which further reduces risk (a negative SHAP of\u202f\u20110.180). The two risk\u2011lowering factors outweigh the small age\u2011related increase, leading the model to classify the applicant as low risk.",
+  "word_count": 112,
+  "verification_result": {
+    "case_id": 13478,
+    "arm": "shap_only",
+    "text_length": 693,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

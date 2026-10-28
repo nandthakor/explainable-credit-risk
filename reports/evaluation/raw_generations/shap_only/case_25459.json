@@ -1,0 +1,29 @@
+{
+  "case_id": 25459,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low risk** even though the overall default probability is 22.4\u202f%. It arrived at this conclusion by weighing three key pieces of information.  \n\nFirst, the applicant\u2019s age of 30 added a modest amount of risk (the SHAP value of\u202f+0.436), meaning younger borrowers are slightly more likely to miss payments.  \n\nSecond, the applicant\u2019s revolving\u2011credit utilization is low\u2014about 14\u202f% of the available credit is being used. This contributed a negative SHAP value (\u20110.374), pulling the risk score down because low utilization signals good credit management.  \n\nFinally, the applicant has no recent 30\u2011 to 59\u2011day past\u2011due accounts (value\u202f0), which added another negative SHAP (\u20110.152), further reducing the estimated risk.  \n\nTogether, the two strong risk\u2011reducing factors outweigh the small age\u2011related increase, leading the model to classify the applicant as low risk.",
+  "word_count": 136,
+  "verification_result": {
+    "case_id": 25459,
+    "arm": "shap_only",
+    "text_length": 898,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

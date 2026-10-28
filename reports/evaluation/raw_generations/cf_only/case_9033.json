@@ -1,0 +1,29 @@
+{
+  "case_id": 9033,
+  "arm": "cf_only",
+  "text": "At this time the analysis did not identify any specific changes that would flip the decision to a higher\u2011risk category. In other words, there isn\u2019t a single, verified action that guarantees the model will change its outcome for you.\u202fNevertheless, maintaining strong overall credit habits\u2014such as keeping balances low relative to your limits, avoiding",
+  "word_count": 54,
+  "verification_result": {
+    "case_id": 9033,
+    "arm": "cf_only",
+    "text_length": 350,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

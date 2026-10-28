@@ -1,0 +1,29 @@
+{
+  "case_id": 6454,
+  "arm": "cf_only",
+  "text": "At this time the model does not identify any single change that would automatically turn the decision around. However, strengthening the overall credit profile can improve future outcomes. Consider the following steps:\n\n* Pay down any outstanding balances so that the amount you owe is a smaller portion of your total credit limits.  \n* Keep credit\u2011card usage low and avoid carrying balances from month to month.  \n* Refrain from opening new credit accounts or taking on additional loans until existing obligations are reduced.  \n* Maintain steady employment and a reliable source of income, and keep records of regular deposits or savings.  \n* Review your credit reports for errors and dispute any inaccuracies promptly.\n\nConsistently applying these habits can lower the probability of default over time and increase the chance of approval in future applications.",
+  "word_count": 134,
+  "verification_result": {
+    "case_id": 6454,
+    "arm": "cf_only",
+    "text_length": 864,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

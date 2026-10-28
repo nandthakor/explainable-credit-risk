@@ -1,0 +1,29 @@
+{
+  "case_id": 9128,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because two of the three factors it looks at are pushing the default probability upward. First, the applicant\u2019s revolving\u2011credit utilization is about\u202f69\u202f% of the available limit. Using that much of the credit line is a strong signal that the borrower may be stretched thin, and it contributed roughly\u202f+0.78 to the risk score. Second, the applicant is 28\u202fyears old. Younger borrowers statistically default more often, adding about\u202f+0.48 to the risk. The only mitigating element is that the applicant has no recent 30\u2011 to 59\u2011day past\u2011due accounts, which pulls the score down a small amount (\u20110.15). The net effect of the high utilization and young age outweighs the modest positive factor, leading the model to assign a 52.2\u202f% default probability and label the case as HIGH RISK.",
+  "word_count": 138,
+  "verification_result": {
+    "case_id": 9128,
+    "arm": "shap_only",
+    "text_length": 823,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

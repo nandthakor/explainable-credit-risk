@@ -1,0 +1,29 @@
+{
+  "case_id": 598,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because the strongest signals point to a high likelihood of default. Their revolving\u2011credit utilization is about 77\u202f% of the available limit, and this alone adds the largest positive contribution (+0.94) to the default probability, indicating they are heavily using their credit. In addition, the applicant has 14 open credit lines and loans; having many active accounts adds another positive boost (+0.22) to the risk score, suggesting a complex credit picture that can be harder to manage. Their monthly income of $13,333 does pull the risk down slightly (\u20110.16), but the impact is modest and does not offset the strong negative signals from utilization and the number of open accounts.",
+  "word_count": 117,
+  "verification_result": {
+    "case_id": 598,
+    "arm": "shap_only",
+    "text_length": 734,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

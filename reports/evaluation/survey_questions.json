@@ -1,0 +1,82 @@
+[
+  {
+    "instance_id": 34,
+    "case_type": "true_positive",
+    "predicted_outcome": "The model flagged this applicant as HIGH RISK (probability of default: 80%)",
+    "explanations": {
+      "A": "To move the decision to a more favorable result, the applicant could focus on four practical steps:\n\n1. **Pay down credit‑card balances** so the amount used drops from about 60 % of the limit to around 40 % or less.  \n2. **Clear any recent late payments** – bring the account that was 30‑59 days past due back to current status.  \n3. **Reduce overall debt** by paying off loans or other balances, lowering the total debt‑to‑income proportion from roughly 35 % to 20 % or below.  \n4. **Simplify the credit profile** by closing a few unused credit accounts, bringing the number of open lines down from ten to about four.\n\nThese actions are realistic and directly address the four factors that could flip the credit decision.",
+      "B": "The model flagged this application as high risk because several key pieces of information point toward a higher chance of missing payments.  \n\n1. **Revolving utilization is at its maximum** – the applicant is using all of the credit that’s available, which strongly raises concern.  \n2. **A recent late payment (30‑59 days)** was recorded, adding further worry.  \n3. **Age of 35** contributes a modest increase in risk, as younger borrowers are viewed as slightly less stable.  \n4. **No real‑estate loans** means the applicant lacks the lower‑risk loan type that would have helped balance the score.  \n5. **Monthly income of $2,083** is modest and adds a small amount of risk.  \n\nTogether, these factors lead the model to conclude the applicant is likely to default.",
+      "C": "**Why the decision came back “high risk”**\n\nOur model looks at a few key signals that tend to predict whether a loan will be paid back. For this applicant the biggest red flags were:\n\n* **Credit‑card usage** – the balance is close to the total credit limit (a utilization of 100%). That shows the applicant is using all the credit available, which raises concern.  \n* **Recent late payment** – a payment that was 30‑59 days late was recorded, indicating a slip in the repayment habit.  \n* **Age** – at 35 the applicant has a shorter credit history than older borrowers, which adds some uncertainty.  \n* **Income** – a monthly income of about $2,083 is modest relative to the amount of credit being used.\n\nThese factors together pushed the risk score high enough for the model to label the application as likely to default.\n\n**What the applicant can do to improve the outlook**\n\n1. **Pay down credit‑card balances** so utilization falls from 100 % to around 60 % or lower.  \n2. **Bring the account current** and avoid any further late payments; a clean recent payment history helps quickly.  \n3. **Reduce overall debt** – lowering the debt‑to‑income ratio (e.g., from 0.35 to 0.20) by paying off loans or consolidating debt.  \n4. **Limit the number of open credit lines** – closing a few unused cards (down to about 4) can improve the profile.  \n5. **Boost income or add a co‑borrower** if possible, to show a stronger ability to repay.\n\nTaking these steps can shift the risk score enough that the decision would likely change to an approval."
+    },
+    "likert_questions": [
+      "I understand why this decision was made.",
+      "I trust this explanation.",
+      "I know what I could do differently, if anything."
+    ],
+    "preference_question": "Which explanation (A, B, or C) did you find most helpful overall?"
+  },
+  {
+    "instance_id": 3,
+    "case_type": "true_negative",
+    "predicted_outcome": "The model flagged this applicant as LOW RISK (probability of default: 12%)",
+    "explanations": {
+      "A": "**Why the decision was made**\n\nThe model sees you as a low‑risk borrower. The biggest reason is that you are using only a tiny slice of your available revolving credit (your credit‑card balances are very low). You also have no recent late payments—nothing 30‑59 days or 90 days past due. You don’t have any real‑estate loans on your record, and at 59 years old you have a long credit history, which the model views positively. All of these factors pull the score down, meaning the system predicts you are unlikely to default.\n\n**What you can do to keep or improve it**\n\nEven though the analysis found no single change that would flip the decision, you can still protect this low‑risk view:\n\n* Keep your credit‑card balances low relative to your limits.  \n* Pay every bill on time—especially credit cards and any new loans.  \n* Avoid opening many new credit accounts at once.  \n* If you ever take on a mortgage or other large loan, make sure you can comfortably meet the payments.\n\nSticking to these habits will help maintain the low‑risk assessment for any future reviews.",
+      "B": "Unfortunately, there are no specific actions you can take right now that would change the decision. The analysis found no realistic changes—such as adjusting income, debt, or credit history—that would flip the outcome. If your situation changes significantly in the future (for example, a higher steady income or a lower debt load), you could consider re‑applying then.",
+      "C": "The model sees this applicant as a low‑risk borrower because several key pieces of their credit profile pull the risk score down:\n\n* Their revolving‑credit usage is very low (the balance is only a tiny fraction of the available credit), which strongly lowers the risk estimate.  \n* They have no recent late payments of 30‑59 days, and no 90‑day delinquencies, each of which further reduces the risk.  \n* They do not have any real‑estate loans on their record, another factor that lessens the chance of default.  \n* At 59 years old, the age factor also contributes modestly to a lower risk assessment.\n\nTogether, these five elements combine to make the model confident that the applicant is unlikely to default."
+    },
+    "likert_questions": [
+      "I understand why this decision was made.",
+      "I trust this explanation.",
+      "I know what I could do differently, if anything."
+    ],
+    "preference_question": "Which explanation (A, B, or C) did you find most helpful overall?"
+  },
+  {
+    "instance_id": 2,
+    "case_type": "false_positive",
+    "predicted_outcome": "The model flagged this applicant as HIGH RISK (probability of default: 78%)",
+    "explanations": {
+      "A": "To move the decision to a more favorable result, the applicant would need to make a few concrete changes:\n\n1. **Pay down credit‑card balances** so the amount owed compared to the credit limit drops from about 58 % to 40 %.  \n2. **Clear any recent late payments** – having zero payments that were 30‑59 days late would help.  \n3. **Lower the overall amount of debt** relative to income, bringing the debt‑to‑income figure down from roughly 40 % to 30 %. This can be done by paying off loans or increasing income.  \n4. **Add a small boost to monthly earnings** – even a modest increase (e.g., an extra $20‑$30 per month) would be beneficial.  \n5. **Close one credit account** so the total number of open credit lines goes from eight to seven.\n\nTaking these steps—especially reducing credit‑card usage and eliminating recent late payments—would give the model a reason to change the decision.",
+      "B": "**Why the decision came back as high risk**\n\nThe model saw three main warning signs:  \n1. You have three recent 30‑ to 59‑day late payments, which strongly suggests difficulty keeping up with bills.  \n2. Your credit‑card balances are using about 58 % of the credit you’re allowed, which shows you’re close to maxing out your cards.  \n3. Together with a modest debt‑to‑income ratio, these factors outweigh the small positives from your age and the fact you don’t have any real‑estate loans.\n\n**What you can realistically do to improve the picture**\n\n- **Bring current any recent late payments** and keep future payments on time. Even eliminating the three 30‑ to 59‑day delinquencies would remove the biggest risk factor.  \n- **Lower your credit‑card balances** to around 40 % of your limits (or less). Paying down a portion of the balances each month will quickly reduce the utilization number.  \n- **Reduce overall debt** a bit—bringing the debt‑to‑income ratio down from 0.40 to about 0.30 helps. This can be done by paying off some loans or consolidating to a lower‑interest option.  \n- **Keep credit accounts manageable**; closing one unused credit line (dropping from 8 to 7) can simplify your profile, as long as it doesn’t raise your utilization.  \n\nIf you can address the late payments and bring utilization down, the model’s prediction would likely shift to a favorable outcome.",
+      "C": "The model flagged this applicant as high‑risk because of a few key points in their credit history:\n\n1. **Recent late payments** – The applicant has a 30‑day late payment that is 59 days past due. This alone pushes the risk score up sharply.  \n2. **High credit‑card usage** – About 58 % of the applicant’s revolving credit limit is being used, which the model sees as a strong sign of potential difficulty paying back.  \n3. **Real‑estate loan balance** – Having no real‑estate loan slightly lowers the risk, but the effect is modest.  \n4. **Age** – At 59 years old, age modestly reduces the risk, though not enough to offset the other concerns.  \n5. **Very late payments** – There are no 90‑day delinquencies, which also nudges the risk a little lower.\n\nOverall, the recent 30‑day late payment and high credit‑card utilization dominate the assessment, leading the model to label the applicant as high risk."
+    },
+    "likert_questions": [
+      "I understand why this decision was made.",
+      "I trust this explanation.",
+      "I know what I could do differently, if anything."
+    ],
+    "preference_question": "Which explanation (A, B, or C) did you find most helpful overall?"
+  },
+  {
+    "instance_id": 73,
+    "case_type": "false_negative",
+    "predicted_outcome": "The model flagged this applicant as LOW RISK (probability of default: 22%)",
+    "explanations": {
+      "A": "The analysis found that there are no practical adjustments the applicant can make that would cause the decision to change. In other words, none of the typical factors—such as income, debt levels, credit history, or employment details—can be altered in a realistic way to flip the outcome. To see a different result, the applicant would need a change that goes beyond normal, achievable adjustments.",
+      "B": "**Why the decision was made**\n\nThe model sees this applicant as a low‑risk borrower. The biggest help comes from a very low credit‑card balance relative to the limit (revolving utilization), which pulls the risk score down. The applicant also has no recent late payments (30‑59‑day or 90‑day delinquencies), which further reduces risk. A modest number of open credit lines and a monthly income of about $2,000 add a small amount of risk, but not enough to outweigh the positives.\n\n**What the applicant can do to keep or improve the picture**\n\n- **Keep credit‑card balances low** – staying well under the credit limit continues to be a strong positive.\n- **Pay every bill on time** – avoiding any late payments maintains the low‑risk signal.\n- **Maintain or modestly increase income** – a higher, stable income can offset other risk factors.\n- **Add new credit only if needed** – opening many new accounts can raise risk, so any new credit should be taken carefully.\n\nBecause the model already rates the applicant as low risk, there’s no single realistic change that would flip the decision to a higher‑risk outcome. Continuing these good habits will keep the favorable rating.",
+      "C": "The model sees this applicant as a low‑risk borrower.  \n\n- Their revolving‑credit usage is low (about 10 % of the limit), which pulls the risk score down.  \n- They have 13 open credit lines, a moderate number that nudges the score up a bit.  \n- They have no recent late payments of 30‑59 days or 90‑day delinquencies, which each lower the risk estimate.  \n- Their monthly income is $2,034, which adds a small positive boost to the score.  \n\nOverall, the low credit‑card utilization and clean payment history outweigh the modest increase from having several credit lines and the income level, leading the model to label the applicant as unlikely to default."
+    },
+    "likert_questions": [
+      "I understand why this decision was made.",
+      "I trust this explanation.",
+      "I know what I could do differently, if anything."
+    ],
+    "preference_question": "Which explanation (A, B, or C) did you find most helpful overall?"
+  },
+  {
+    "instance_id": 1,
+    "case_type": "borderline",
+    "predicted_outcome": "The model flagged this applicant as HIGH RISK (probability of default: 52%)",
+    "explanations": {
+      "A": "To move the decision to a more favorable result, the applicant could:\n\n1. **Pay down credit‑card balances** so the amount they’re using drops from about 57 % of their limits to 50 % or less.  \n2. **Avoid any 30‑ to 59‑day late payments**; keeping all bills current will bring that count to zero.  \n3. **Reduce overall debt** (or increase verified income) so the total debt‑to‑income figure falls from roughly 37 % to 30 % or lower.  \n4. **Close or stop using some credit accounts** so the number of open lines goes from 11 down to about 7.\n\nThese steps focus on lowering the amount owed, staying current on payments, and simplifying the credit profile.",
+      "B": "The model flagged the application as high risk because several key pieces of information point toward a higher chance of missing a payment.  \n\n- The applicant’s revolving‑credit usage is very high (about 57 % of the limit), which strongly pushes the risk score up.  \n- There is a recent late payment that was 30‑59 days overdue, another strong driver of risk.  \n- Having two real‑estate loans also adds to the risk.  \n\nOn the other side, the applicant’s monthly income of $12,000 and age of 58 each pull the risk score down a little, but those offsets are not enough to outweigh the three risk‑increasing factors. As a result, the overall prediction is “high risk” with a confidence of about 52 %.",
+      "C": "**Why the model flagged a high‑risk rating**\n\nThe system saw three main warning signs:  \n1. **Credit‑card balances are high** – the applicant is using about 57 % of the credit they have available, which suggests they may be stretched thin.  \n2. **A recent late payment** – a payment that was 30‑59 days late was recorded, indicating a slip in meeting obligations.  \n3. **Real‑estate loans** – having two mortgages adds to the overall debt load.\n\nA modestly higher income and the applicant’s age (58) pull the score down a little, but not enough to offset the three risk factors.\n\n**What the applicant can do to improve the outlook**\n\n1. **Pay down credit‑card balances** so utilization falls below 50 % (aim for 30 % or less).  \n2. **Avoid any further late payments**; set up automatic reminders or autopay to keep accounts current.  \n3. **Reduce overall debt** – paying off or consolidating some of the real‑estate loan balance, or lowering the debt‑to‑income ratio, will help.  \n4. **Close a few unused credit lines** (e.g., reduce open lines from 11 to around 7) after the balances are paid down, which can lower the perceived risk.\n\nIf these steps are taken, the model’s prediction would likely shift to a lower‑risk rating, making approval more probable."
+    },
+    "likert_questions": [
+      "I understand why this decision was made.",
+      "I trust this explanation.",
+      "I know what I could do differently, if anything."
+    ],
+    "preference_question": "Which explanation (A, B, or C) did you find most helpful overall?"
+  }
+]

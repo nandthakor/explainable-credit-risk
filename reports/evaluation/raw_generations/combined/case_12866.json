@@ -1,0 +1,31 @@
+{
+  "case_id": 12866,
+  "arm": "combined",
+  "text": "**Why the model gave a \u201chigh\u2011risk\u201d decision**  \nThe system looks at a few key numbers to estimate the chance you might miss a payment. The biggest driver was your revolving\u2011credit utilization, which is essentially\u202f100\u202f% (0.9999999). Using almost all of the credit you have signals that you are close to your limit, and the model sees that as a strong sign of future difficulty, raising your default probability by more than one point on its scale. Your age (61\u202fyears) and the fact that you have no recent 30\u2011 to 59\u2011day past\u2011due accounts each pull the risk a little lower, but they are not enough to offset the utilization impact.\n\n**What you can do to improve the score**  \nThe model shows four concrete steps that would lower the estimated risk to about\u202f44\u202f%:\n\n1. Reduce the amount you owe on revolving credit so utilization falls from\u202f~100\u202f% to\u202f90\u202f% or less.  \n2. Bring your debt\u2011to\u2011income ratio down from\u202f0.26 to\u202f0.20.  \n3. Close one of your open credit lines or loans, moving from\u202f5\u202fto\u202f4\u202fopen accounts.  \n4. Pay off the single real\u2011estate loan/mortgage you have, bringing that count",
+  "word_count": 194,
+  "verification_result": {
+    "case_id": 12866,
+    "arm": "combined",
+    "text_length": 1086,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 8,
+    "numerical_accuracy": 0.8888888888888888,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 4,
+    "recourse_actions_verified": 4,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 14346,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because the three factors it looks at point toward a strong chance of default. First, the applicant\u2019s revolving\u2011credit utilization is essentially 100\u202f% of the available limit. That extreme level of usage adds the biggest push to the risk score, contributing more than one point to the probability of default. Second, the applicant is 41\u202fyears old; the model associates that age with a modest increase in risk, adding about 0.22 points. Finally, the applicant has only one open credit line or loan. While having a single line slightly lowers the risk (about \u20130.30 points), it is not enough to offset the very high utilization and the age effect. Together, these influences drive the overall default probability to 55.4\u202f%, resulting in the \u201chigh risk\u201d decision.",
+  "word_count": 133,
+  "verification_result": {
+    "case_id": 14346,
+    "arm": "shap_only",
+    "text_length": 805,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

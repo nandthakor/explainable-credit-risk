@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Decision Explanation Survey</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto;
+           padding: 20px; background: #f9f9f9; }
+    h1 { color: #333; border-bottom: 2px solid #2196F3; padding-bottom: 10px; }
+    .instance-block { background: white; padding: 20px; margin: 20px 0;
+                       border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .explanation { background: #f5f5f5; padding: 15px; margin: 10px 0;
+                    border-left: 4px solid #2196F3; border-radius: 4px; }
+    .explanation h3 { margin-top: 0; color: #2196F3; }
+    .explanation-text { line-height: 1.6; }
+    .likert-q { font-weight: bold; margin-bottom: 5px; }
+    .likert-scale { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px; }
+    .likert-scale label { background: #e3f2fd; padding: 5px 10px; border-radius: 4px;
+                           cursor: pointer; font-size: 0.9em; }
+    .likert-scale input:checked + span,
+    .likert-scale label:has(input:checked) { background: #2196F3; color: white; }
+    .preference { margin-top: 15px; padding-top: 15px; border-top: 1px solid #ddd; }
+    select { padding: 8px; font-size: 1em; }
+    .outcome { background: #fff3e0; padding: 10px; border-radius: 4px;
+                border-left: 4px solid #ff9800; }
+    #submit-area { text-align: center; margin: 30px 0; }
+    button { background: #2196F3; color: white; border: none; padding: 15px 40px;
+             font-size: 1.1em; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #1976D2; }
+    .instructions { background: #e8f5e9; padding: 15px; border-radius: 8px;
+                     border-left: 4px solid #4CAF50; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Credit Decision Explanation Survey</h1>
+
+  <div class="instructions">
+    <p><strong>Instructions:</strong> You will see 5 scenarios. For each scenario,
+    you will read 3 different explanations (A, B, C) of the same credit decision.
+    Please rate each explanation on the 3 statements using the 1-5 scale, then
+    choose which explanation you found most helpful overall.</p>
+    <p>There are no right or wrong answers. We are interested in your honest opinion.</p>
+    <p>When done, click "Download my responses as JSON" at the bottom and send
+    the downloaded file back to the researcher.</p>
+  </div>
+
+  <form id="surveyForm">
+
+    <div class="instance-block">
+      <h2>Scenario 1: True Positive (ID 34)</h2>
+      <p class="outcome"><strong>Model decision:</strong> The model flagged this applicant as HIGH RISK (probability of default: 80%)</p>
+
+      <div class="explanation">
+        <h3>Explanation A</h3>
+        <div class="explanation-text">To move the decision to a more favorable result, the applicant could focus on four practical steps:<br><br>1. **Pay down credit‑card balances** so the amount used drops from about 60 % of the limit to around 40 % or less.  <br>2. **Clear any recent late payments** – bring the account that was 30‑59 days past due back to current status.  <br>3. **Reduce overall debt** by paying off loans or other balances, lowering the total debt‑to‑income proportion from roughly 35 % to 20 % or below.  <br>4. **Simplify the credit profile** by closing a few unused credit accounts, bringing the number of open lines down from ten to about four.<br><br>These actions are realistic and directly address the four factors that could flip the credit decision.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_A_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_A_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_A_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_A_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation B</h3>
+        <div class="explanation-text">The model flagged this application as high risk because several key pieces of information point toward a higher chance of missing payments.  <br><br>1. **Revolving utilization is at its maximum** – the applicant is using all of the credit that’s available, which strongly raises concern.  <br>2. **A recent late payment (30‑59 days)** was recorded, adding further worry.  <br>3. **Age of 35** contributes a modest increase in risk, as younger borrowers are viewed as slightly less stable.  <br>4. **No real‑estate loans** means the applicant lacks the lower‑risk loan type that would have helped balance the score.  <br>5. **Monthly income of $2,083** is modest and adds a small amount of risk.  <br><br>Together, these factors lead the model to conclude the applicant is likely to default.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_B_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_B_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_B_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_B_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation C</h3>
+        <div class="explanation-text">**Why the decision came back “high risk”**<br><br>Our model looks at a few key signals that tend to predict whether a loan will be paid back. For this applicant the biggest red flags were:<br><br>* **Credit‑card usage** – the balance is close to the total credit limit (a utilization of 100%). That shows the applicant is using all the credit available, which raises concern.  <br>* **Recent late payment** – a payment that was 30‑59 days late was recorded, indicating a slip in the repayment habit.  <br>* **Age** – at 35 the applicant has a shorter credit history than older borrowers, which adds some uncertainty.  <br>* **Income** – a monthly income of about $2,083 is modest relative to the amount of credit being used.<br><br>These factors together pushed the risk score high enough for the model to label the application as likely to default.<br><br>**What the applicant can do to improve the outlook**<br><br>1. **Pay down credit‑card balances** so utilization falls from 100 % to around 60 % or lower.  <br>2. **Bring the account current** and avoid any further late payments; a clean recent payment history helps quickly.  <br>3. **Reduce overall debt** – lowering the debt‑to‑income ratio (e.g., from 0.35 to 0.20) by paying off loans or consolidating debt.  <br>4. **Limit the number of open credit lines** – closing a few unused cards (down to about 4) can improve the profile.  <br>5. **Boost income or add a co‑borrower** if possible, to show a stronger ability to repay.<br><br>Taking these steps can shift the risk score enough that the decision would likely change to an approval.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_C_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_C_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q34_C_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q34_C_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="preference">
+        <p><strong>Which explanation (A, B, or C) did you find most helpful overall?</strong></p>
+        <select name="q34_preference" required>
+          <option value="">-- Select --</option>
+          <option value="A">Explanation A</option>
+          <option value="B">Explanation B</option>
+          <option value="C">Explanation C</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="instance-block">
+      <h2>Scenario 2: True Negative (ID 3)</h2>
+      <p class="outcome"><strong>Model decision:</strong> The model flagged this applicant as LOW RISK (probability of default: 12%)</p>
+
+      <div class="explanation">
+        <h3>Explanation A</h3>
+        <div class="explanation-text">**Why the decision was made**<br><br>The model sees you as a low‑risk borrower. The biggest reason is that you are using only a tiny slice of your available revolving credit (your credit‑card balances are very low). You also have no recent late payments—nothing 30‑59 days or 90 days past due. You don’t have any real‑estate loans on your record, and at 59 years old you have a long credit history, which the model views positively. All of these factors pull the score down, meaning the system predicts you are unlikely to default.<br><br>**What you can do to keep or improve it**<br><br>Even though the analysis found no single change that would flip the decision, you can still protect this low‑risk view:<br><br>* Keep your credit‑card balances low relative to your limits.  <br>* Pay every bill on time—especially credit cards and any new loans.  <br>* Avoid opening many new credit accounts at once.  <br>* If you ever take on a mortgage or other large loan, make sure you can comfortably meet the payments.<br><br>Sticking to these habits will help maintain the low‑risk assessment for any future reviews.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_A_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_A_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_A_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_A_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation B</h3>
+        <div class="explanation-text">Unfortunately, there are no specific actions you can take right now that would change the decision. The analysis found no realistic changes—such as adjusting income, debt, or credit history—that would flip the outcome. If your situation changes significantly in the future (for example, a higher steady income or a lower debt load), you could consider re‑applying then.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_B_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_B_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_B_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_B_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation C</h3>
+        <div class="explanation-text">The model sees this applicant as a low‑risk borrower because several key pieces of their credit profile pull the risk score down:<br><br>* Their revolving‑credit usage is very low (the balance is only a tiny fraction of the available credit), which strongly lowers the risk estimate.  <br>* They have no recent late payments of 30‑59 days, and no 90‑day delinquencies, each of which further reduces the risk.  <br>* They do not have any real‑estate loans on their record, another factor that lessens the chance of default.  <br>* At 59 years old, the age factor also contributes modestly to a lower risk assessment.<br><br>Together, these five elements combine to make the model confident that the applicant is unlikely to default.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_C_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_C_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q3_C_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q3_C_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="preference">
+        <p><strong>Which explanation (A, B, or C) did you find most helpful overall?</strong></p>
+        <select name="q3_preference" required>
+          <option value="">-- Select --</option>
+          <option value="A">Explanation A</option>
+          <option value="B">Explanation B</option>
+          <option value="C">Explanation C</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="instance-block">
+      <h2>Scenario 3: False Positive (ID 2)</h2>
+      <p class="outcome"><strong>Model decision:</strong> The model flagged this applicant as HIGH RISK (probability of default: 78%)</p>
+
+      <div class="explanation">
+        <h3>Explanation A</h3>
+        <div class="explanation-text">To move the decision to a more favorable result, the applicant would need to make a few concrete changes:<br><br>1. **Pay down credit‑card balances** so the amount owed compared to the credit limit drops from about 58 % to 40 %.  <br>2. **Clear any recent late payments** – having zero payments that were 30‑59 days late would help.  <br>3. **Lower the overall amount of debt** relative to income, bringing the debt‑to‑income figure down from roughly 40 % to 30 %. This can be done by paying off loans or increasing income.  <br>4. **Add a small boost to monthly earnings** – even a modest increase (e.g., an extra $20‑$30 per month) would be beneficial.  <br>5. **Close one credit account** so the total number of open credit lines goes from eight to seven.<br><br>Taking these steps—especially reducing credit‑card usage and eliminating recent late payments—would give the model a reason to change the decision.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_A_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_A_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_A_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_A_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation B</h3>
+        <div class="explanation-text">**Why the decision came back as high risk**<br><br>The model saw three main warning signs:  <br>1. You have three recent 30‑ to 59‑day late payments, which strongly suggests difficulty keeping up with bills.  <br>2. Your credit‑card balances are using about 58 % of the credit you’re allowed, which shows you’re close to maxing out your cards.  <br>3. Together with a modest debt‑to‑income ratio, these factors outweigh the small positives from your age and the fact you don’t have any real‑estate loans.<br><br>**What you can realistically do to improve the picture**<br><br>- **Bring current any recent late payments** and keep future payments on time. Even eliminating the three 30‑ to 59‑day delinquencies would remove the biggest risk factor.  <br>- **Lower your credit‑card balances** to around 40 % of your limits (or less). Paying down a portion of the balances each month will quickly reduce the utilization number.  <br>- **Reduce overall debt** a bit—bringing the debt‑to‑income ratio down from 0.40 to about 0.30 helps. This can be done by paying off some loans or consolidating to a lower‑interest option.  <br>- **Keep credit accounts manageable**; closing one unused credit line (dropping from 8 to 7) can simplify your profile, as long as it doesn’t raise your utilization.  <br><br>If you can address the late payments and bring utilization down, the model’s prediction would likely shift to a favorable outcome.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_B_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_B_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_B_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_B_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation C</h3>
+        <div class="explanation-text">The model flagged this applicant as high‑risk because of a few key points in their credit history:<br><br>1. **Recent late payments** – The applicant has a 30‑day late payment that is 59 days past due. This alone pushes the risk score up sharply.  <br>2. **High credit‑card usage** – About 58 % of the applicant’s revolving credit limit is being used, which the model sees as a strong sign of potential difficulty paying back.  <br>3. **Real‑estate loan balance** – Having no real‑estate loan slightly lowers the risk, but the effect is modest.  <br>4. **Age** – At 59 years old, age modestly reduces the risk, though not enough to offset the other concerns.  <br>5. **Very late payments** – There are no 90‑day delinquencies, which also nudges the risk a little lower.<br><br>Overall, the recent 30‑day late payment and high credit‑card utilization dominate the assessment, leading the model to label the applicant as high risk.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_C_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_C_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q2_C_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q2_C_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="preference">
+        <p><strong>Which explanation (A, B, or C) did you find most helpful overall?</strong></p>
+        <select name="q2_preference" required>
+          <option value="">-- Select --</option>
+          <option value="A">Explanation A</option>
+          <option value="B">Explanation B</option>
+          <option value="C">Explanation C</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="instance-block">
+      <h2>Scenario 4: False Negative (ID 73)</h2>
+      <p class="outcome"><strong>Model decision:</strong> The model flagged this applicant as LOW RISK (probability of default: 22%)</p>
+
+      <div class="explanation">
+        <h3>Explanation A</h3>
+        <div class="explanation-text">The analysis found that there are no practical adjustments the applicant can make that would cause the decision to change. In other words, none of the typical factors—such as income, debt levels, credit history, or employment details—can be altered in a realistic way to flip the outcome. To see a different result, the applicant would need a change that goes beyond normal, achievable adjustments.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_A_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_A_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_A_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_A_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation B</h3>
+        <div class="explanation-text">**Why the decision was made**<br><br>The model sees this applicant as a low‑risk borrower. The biggest help comes from a very low credit‑card balance relative to the limit (revolving utilization), which pulls the risk score down. The applicant also has no recent late payments (30‑59‑day or 90‑day delinquencies), which further reduces risk. A modest number of open credit lines and a monthly income of about $2,000 add a small amount of risk, but not enough to outweigh the positives.<br><br>**What the applicant can do to keep or improve the picture**<br><br>- **Keep credit‑card balances low** – staying well under the credit limit continues to be a strong positive.<br>- **Pay every bill on time** – avoiding any late payments maintains the low‑risk signal.<br>- **Maintain or modestly increase income** – a higher, stable income can offset other risk factors.<br>- **Add new credit only if needed** – opening many new accounts can raise risk, so any new credit should be taken carefully.<br><br>Because the model already rates the applicant as low risk, there’s no single realistic change that would flip the decision to a higher‑risk outcome. Continuing these good habits will keep the favorable rating.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_B_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_B_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_B_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_B_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation C</h3>
+        <div class="explanation-text">The model sees this applicant as a low‑risk borrower.  <br><br>- Their revolving‑credit usage is low (about 10 % of the limit), which pulls the risk score down.  <br>- They have 13 open credit lines, a moderate number that nudges the score up a bit.  <br>- They have no recent late payments of 30‑59 days or 90‑day delinquencies, which each lower the risk estimate.  <br>- Their monthly income is $2,034, which adds a small positive boost to the score.  <br><br>Overall, the low credit‑card utilization and clean payment history outweigh the modest increase from having several credit lines and the income level, leading the model to label the applicant as unlikely to default.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_C_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_C_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q73_C_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q73_C_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="preference">
+        <p><strong>Which explanation (A, B, or C) did you find most helpful overall?</strong></p>
+        <select name="q73_preference" required>
+          <option value="">-- Select --</option>
+          <option value="A">Explanation A</option>
+          <option value="B">Explanation B</option>
+          <option value="C">Explanation C</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="instance-block">
+      <h2>Scenario 5: Borderline (ID 1)</h2>
+      <p class="outcome"><strong>Model decision:</strong> The model flagged this applicant as HIGH RISK (probability of default: 52%)</p>
+
+      <div class="explanation">
+        <h3>Explanation A</h3>
+        <div class="explanation-text">To move the decision to a more favorable result, the applicant could:<br><br>1. **Pay down credit‑card balances** so the amount they’re using drops from about 57 % of their limits to 50 % or less.  <br>2. **Avoid any 30‑ to 59‑day late payments**; keeping all bills current will bring that count to zero.  <br>3. **Reduce overall debt** (or increase verified income) so the total debt‑to‑income figure falls from roughly 37 % to 30 % or lower.  <br>4. **Close or stop using some credit accounts** so the number of open lines goes from 11 down to about 7.<br><br>These steps focus on lowering the amount owed, staying current on payments, and simplifying the credit profile.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_A_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_A_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_A_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_A_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation B</h3>
+        <div class="explanation-text">The model flagged the application as high risk because several key pieces of information point toward a higher chance of missing a payment.  <br><br>- The applicant’s revolving‑credit usage is very high (about 57 % of the limit), which strongly pushes the risk score up.  <br>- There is a recent late payment that was 30‑59 days overdue, another strong driver of risk.  <br>- Having two real‑estate loans also adds to the risk.  <br><br>On the other side, the applicant’s monthly income of $12,000 and age of 58 each pull the risk score down a little, but those offsets are not enough to outweigh the three risk‑increasing factors. As a result, the overall prediction is “high risk” with a confidence of about 52 %.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_B_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_B_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_B_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_B_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <h3>Explanation C</h3>
+        <div class="explanation-text">**Why the model flagged a high‑risk rating**<br><br>The system saw three main warning signs:  <br>1. **Credit‑card balances are high** – the applicant is using about 57 % of the credit they have available, which suggests they may be stretched thin.  <br>2. **A recent late payment** – a payment that was 30‑59 days late was recorded, indicating a slip in meeting obligations.  <br>3. **Real‑estate loans** – having two mortgages adds to the overall debt load.<br><br>A modestly higher income and the applicant’s age (58) pull the score down a little, but not enough to offset the three risk factors.<br><br>**What the applicant can do to improve the outlook**<br><br>1. **Pay down credit‑card balances** so utilization falls below 50 % (aim for 30 % or less).  <br>2. **Avoid any further late payments**; set up automatic reminders or autopay to keep accounts current.  <br>3. **Reduce overall debt** – paying off or consolidating some of the real‑estate loan balance, or lowering the debt‑to‑income ratio, will help.  <br>4. **Close a few unused credit lines** (e.g., reduce open lines from 11 to around 7) after the balances are paid down, which can lower the perceived risk.<br><br>If these steps are taken, the model’s prediction would likely shift to a lower‑risk rating, making approval more probable.</div>
+
+        <p class="likert-q">I understand why this decision was made.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_C_likert0" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert0" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert0" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert0" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert0" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I trust this explanation.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_C_likert1" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert1" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert1" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert1" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert1" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+
+        <p class="likert-q">I know what I could do differently, if anything.</p>
+        <div class="likert-scale">
+          <label>
+            <input type="radio" name="q1_C_likert2" value="1" required>
+            1 - Strongly Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert2" value="2" required>
+            2 - Disagree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert2" value="3" required>
+            3 - Neutral
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert2" value="4" required>
+            4 - Agree
+          </label>
+          <label>
+            <input type="radio" name="q1_C_likert2" value="5" required>
+            5 - Strongly Agree
+          </label>
+        </div>
+      </div>
+
+      <div class="preference">
+        <p><strong>Which explanation (A, B, or C) did you find most helpful overall?</strong></p>
+        <select name="q1_preference" required>
+          <option value="">-- Select --</option>
+          <option value="A">Explanation A</option>
+          <option value="B">Explanation B</option>
+          <option value="C">Explanation C</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div id="submit-area">
+      <button type="button" onclick="downloadResponses()">
+        Download my responses as JSON
+      </button>
+    </div>
+  </form>
+
+  <script>
+    function downloadResponses() {
+      var form = document.getElementById('surveyForm');
+      var data = {};
+      var instanceIds = [34, 3, 2, 73, 1];
+
+      // Check all required fields
+      var radios = form.querySelectorAll('input[type=radio]');
+      var radioGroups = {};
+      radios.forEach(function(r) {
+        radioGroups[r.name] = radioGroups[r.name] || false;
+        if (r.checked) radioGroups[r.name] = true;
+      });
+      var selects = form.querySelectorAll('select');
+      var allFilled = true;
+      for (var g in radioGroups) {
+        if (!radioGroups[g]) { allFilled = false; break; }
+      }
+      selects.forEach(function(s) {
+        if (!s.value) allFilled = false;
+      });
+
+      if (!allFilled) {
+        alert('Please answer all questions before downloading.');
+        return;
+      }
+
+      instanceIds.forEach(function(iid) {
+        data[iid] = {};
+        ['A', 'B', 'C'].forEach(function(label) {
+          data[iid][label] = {};
+          for (var li = 0; li < 3; li++) {
+            var name = 'q' + iid + '_' + label + '_likert' + li;
+            var checked = form.querySelector('input[name="' + name + '"]:checked');
+            var keys = ['understanding', 'trust', 'knows_next_step'];
+            data[iid][label][keys[li]] = checked ? parseInt(checked.value) : null;
+          }
+        });
+        var prefSelect = form.querySelector('select[name="q' + iid + '_preference"]');
+        data[iid]['most_helpful'] = prefSelect ? prefSelect.value : null;
+      });
+
+      data['timestamp'] = new Date().toISOString();
+
+      var blob = new Blob([JSON.stringify(data, null, 2)],
+                          {type: 'application/json'});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'survey_response_' + Date.now() + '.json';
+      a.click();
+      URL.revokeObjectURL(url);
+      alert('Response downloaded! Please send the file to the researcher.');
+    }
+  </script>
+</body>
+</html>

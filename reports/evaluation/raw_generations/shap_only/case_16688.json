@@ -1,0 +1,29 @@
+{
+  "case_id": 16688,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because three key signals pushed the default probability up sharply. First, the revolving\u2011credit utilization is essentially 100\u202f% of the available limit; using almost all of the credit line adds the largest boost (+1.41) to the risk score, indicating the borrower is heavily dependent on credit. Second, the record shows one serious delinquency\u2014 a payment that was 90\u202fdays or more past due\u2014 which contributes another strong increase (+1.18) to the likelihood of default. Finally, the applicant is 23\u202fyears old; younger age adds a modest but still positive lift (+0.57) to the risk. Together, these factors drive the model\u2019s 85\u202f% default probability and the \u201chigh risk\u201d decision.",
+  "word_count": 116,
+  "verification_result": {
+    "case_id": 16688,
+    "arm": "shap_only",
+    "text_length": 724,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

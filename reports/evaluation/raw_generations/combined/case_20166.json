@@ -1,0 +1,29 @@
+{
+  "case_id": 20166,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model looks at a few key pieces of your credit profile.  \n- **Revolving credit utilization (13.7\u202f% of your limit used)** pulls the risk down. Using a small portion of your available credit shows you\u2019re not relying heavily on borrowing, which the model sees as a positive sign.  \n- **Age (35\u202fyears)** adds a small amount of risk. In the data the model was trained on, people in this age range have a slightly higher chance of missing a payment, so it nudges the score upward.  \n- **Times 30\u201159 days past due (0)** also lowers risk. Having no recent late payments",
+  "word_count": 108,
+  "verification_result": {
+    "case_id": 20166,
+    "arm": "combined",
+    "text_length": 604,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

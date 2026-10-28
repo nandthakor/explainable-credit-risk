@@ -1,0 +1,29 @@
+{
+  "case_id": 17856,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 73.2%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 73.2% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 2\n   Risk impact    : This factor increases the estimated default risk (+1.157).\n   Interpretation : 2 recorded 30-59-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n2. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 74.8%\n   Risk impact    : This factor increases the estimated default risk (+0.889).\n   Interpretation : A utilization of 74.8% means the applicant is using a significant portion of available revolving credit. High utilization is one of the strongest predictors of default risk.\n\n3. DEBT-TO-INCOME RATIO (TOTAL MONTHLY DEBT OBLIGATIONS RELATIVE TO INCOME)\n   Observed value : 3,114 (extremely high ratio)\n   Risk impact    : This factor decreases the estimated default risk (-0.341).\n   Interpretation : A debt ratio of 3,114 is extremely high, often seen in edge cases such as near-zero income. This distorts the ratio but the model interprets the raw value.\n\nRECOURSE RECOMMENDATIONS\n========================================\nA feasible recourse pathway exists. The following 3 change(s) would reduce the estimated default probability from 73.2% to 42.6% (below the 50% threshold):\n\n  Step 1: Reduce revolving credit utilization (the share of available credit in use)\n    Current value : 74.8%\n    Target value  : 10.0%\n    Action        : Pay down revolving credit balances so total utilization drops from 74.8% to below 10.0%.\n  Step 2: Reduce debt-to-income ratio (total monthly debt obligations relative to income)\n    Current value : 3,114 (extremely high ratio)\n    Target value  : 3,113 (extremely high ratio)\n    Action        : Improve income documentation or reduce outstanding debt balances.\n  Step 3: Increase number of open credit lines and loans\n    Current value : 8\n    Target value  : 9\n    Action        : Consider opening additional credit accounts to reach 9 total lines.\n\nNote: These recommendations are derived from a domain-constrained counterfactual search. All suggested changes are directionally feasible (e.g., paying down debt, increasing income). The model predicts that implementing all steps simultaneously would change the assessment to low risk.",
+  "word_count": 384,
+  "verification_result": {
+    "case_id": 17856,
+    "arm": "deterministic_template",
+    "text_length": 2759,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 26,
+    "numbers_matched": 26,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 3,
+    "recourse_actions_verified": 3,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

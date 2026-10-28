@@ -1,0 +1,32 @@
+{
+  "case_id": 9033,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: LOW RISK \u2014 unlikely to default\nEstimated Default Probability: 10.6%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 10.6% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 0.2%\n   Risk impact    : This factor decreases the estimated default risk (-0.658).\n   Interpretation : A utilization of 0.2% indicates responsible credit usage, which reduces predicted default risk.\n\n2. APPLICANT AGE\n   Observed value : 64\n   Risk impact    : This factor decreases the estimated default risk (-0.228).\n   Interpretation : At 64 years old, the applicant's age reflects an established credit history.\n\n3. NUMBER OF OPEN CREDIT LINES AND LOANS\n   Observed value : 4\n   Risk impact    : This factor decreases the estimated default risk (-0.180).\n   Interpretation : 4 open credit lines. This number is within a normal range.\n\nRECOURSE RECOMMENDATIONS\n========================================\nThe model currently assesses this applicant as low risk. No recourse action is needed at this time. Maintaining current financial habits is recommended.",
+  "word_count": 199,
+  "verification_result": {
+    "case_id": 9033,
+    "arm": "deterministic_template",
+    "text_length": 1449,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 7,
+    "numerical_accuracy": 0.7777777777777778,
+    "numerical_mismatches": [
+      "2 (=2.00)",
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

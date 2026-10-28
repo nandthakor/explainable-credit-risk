@@ -1,0 +1,29 @@
+{
+  "case_id": 29544,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model looks at a few key pieces of your credit profile. It saw one recent 30\u2011to\u201159\u2011day past\u2011due payment, which pushes the risk score higher. It also noted that you have a relatively low revolving\u2011credit utilization (about 11\u202f% of your available credit), which pulls the risk score down. Finally, the model counted a large number of open credit lines and loans\u201419 in total\u2014which again adds to the risk. When these factors are combined, the overall assessment falls into the \u201clow\u2011risk\u201d category, even though the calculated probability of default is around 46\u202f%.\n\n**What you can do to improve**  \nBased on",
+  "word_count": 107,
+  "verification_result": {
+    "case_id": 29544,
+    "arm": "combined",
+    "text_length": 645,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

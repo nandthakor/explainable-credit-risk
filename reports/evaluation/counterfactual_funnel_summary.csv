@@ -1,0 +1,7 @@
+case_id,original_pred,original_proba,requested,generated,model_valid,constraint_satisfied,passed_all,avg_sparsity_l0,avg_gower_distance
+34,1,0.804028855983424,3,3,3,3,3,3.0,0.06777
+3,0,0.11873802685337528,3,0,0,0,0,,
+2,1,0.7830728613627759,3,3,3,0,0,0.0,0.0
+73,0,0.2223699580159658,3,0,0,0,0,,
+1,1,0.5219377711238248,3,3,3,2,2,2.5,0.028034
+AGGREGATE,,,9,9,9,5,5,,

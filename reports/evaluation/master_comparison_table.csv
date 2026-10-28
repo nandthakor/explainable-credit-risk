@@ -1,0 +1,4 @@
+arm,avg_top_feature_recall,contamination_rate,avg_llm_faithfulness,avg_llm_understandability,avg_llm_actionability,avg_flesch_kincaid_grade,avg_cf_validity_rate,avg_cf_feasibility_rate,avg_human_understanding,avg_human_trust,avg_human_knows_next_step,pct_most_helpful_votes
+shap_only,0.8667,0.0,7.8,9.0,2.0,10.18,N/A,N/A,pending,pending,pending,pending
+cf_only,0.7667,0.0,9.4,9.8,6.4,10.5,1.0,0.22,pending,pending,pending,pending
+combined,0.9667,0.0,8.8,9.8,9.0,9.53,1.0,0.22,pending,pending,pending,pending

@@ -1,0 +1,29 @@
+{
+  "case_id": 14395,
+  "arm": "shap_only",
+  "text": "The model looks at three key pieces of the applicant\u2019s credit picture. First, the revolving\u2011credit utilization is very high (about 89\u202f% of the available credit is being used). This pushes the risk score upward, because using a large share of credit lines is usually a warning sign. Second, the debt\u2011to\u2011income figure is low (the applicant\u2019s debt is only a small portion of their income). That pulls the risk score down, indicating the borrower has enough income to cover their obligations. Finally, the applicant has no recent 30\u2011 to 59\u2011day past\u2011due accounts, which also lowers the risk. When the strong, low\u2011risk signals from income and payment history are combined with the single high\u2011utilization signal, the overall assessment comes out as \u201clow risk.\u201d",
+  "word_count": 122,
+  "verification_result": {
+    "case_id": 14395,
+    "arm": "shap_only",
+    "text_length": 754,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

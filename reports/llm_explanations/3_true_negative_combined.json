@@ -1,0 +1,13 @@
+{
+  "instance_id": 3,
+  "case_type": "true_negative",
+  "arm": "combined",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted LOW RISK (unlikely to default) (confidence: 11.9%) for this applicant.\n\nThe top contributing factors were:\n  1. Revolving Util (value: 0.005186) - strongly decreases the prediction (impact: -0.6501)\n  2. Late 30 59 Days (value: 0) - moderately decreases the prediction (impact: -0.1466)\n  3. Real Estate Loans (value: 0) - moderately decreases the prediction (impact: -0.1334)\n  4. Age (value: 59) - moderately decreases the prediction (impact: -0.1300)\n  5. Late 90 Days (value: 0) - slightly decreases the prediction (impact: -0.0904)\n\nAdditionally, analysis shows that if the following changed:\n(No feasible changes were found that would flip the decision.)\nthe decision would likely flip to the opposite outcome.\n\nIn plain, non-technical language, first briefly explain why the decision was made, then explain what the applicant could realistically do to change it.\n\nKeep it under 200 words.\n",
+  "raw_response": "**Why the decision was made**\n\nThe model sees you as a low‑risk borrower. The biggest reason is that you are using only a tiny slice of your available revolving credit (your credit‑card balances are very low). You also have no recent late payments—nothing 30‑59 days or 90 days past due. You don’t have any real‑estate loans on your record, and at 59 years old you have a long credit history, which the model views positively. All of these factors pull the score down, meaning the system predicts you are unlikely to default.\n\n**What you can do to keep or improve it**\n\nEven though the analysis found no single change that would flip the decision, you can still protect this low‑risk view:\n\n* Keep your credit‑card balances low relative to your limits.  \n* Pay every bill on time—especially credit cards and any new loans.  \n* Avoid opening many new credit accounts at once.  \n* If you ever take on a mortgage or other large loan, make sure you can comfortably meet the payments.\n\nSticking to these habits will help maintain the low‑risk assessment for any future reviews.",
+  "flesch_kincaid_grade": 8.88,
+  "flesch_reading_ease": 63.79,
+  "word_count": 182,
+  "timestamp": "2026-09-19T16:37:11.773360+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "instance_id": 73,
+  "case_type": "false_negative",
+  "arm": "shap_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted LOW RISK (unlikely to default) (confidence: 22.2%) for this applicant.\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Revolving Util (value: 0.102) - moderately decreases the prediction (impact: -0.4492)\n  2. Open Credit Lines (value: 13) - moderately increases the prediction (impact: +0.1817)\n  3. Late 30 59 Days (value: 0) - moderately decreases the prediction (impact: -0.1466)\n  4. Monthly Income (value: 2034) - moderately increases the prediction (impact: +0.1030)\n  5. Late 90 Days (value: 0) - slightly decreases the prediction (impact: -0.0904)\n\nIn plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.\n\nDo not suggest what the applicant could do differently â€” only explain the reasoning behind THIS decision.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model sees this applicant as a low‑risk borrower.  \n\n- Their revolving‑credit usage is low (about 10 % of the limit), which pulls the risk score down.  \n- They have 13 open credit lines, a moderate number that nudges the score up a bit.  \n- They have no recent late payments of 30‑59 days or 90‑day delinquencies, which each lower the risk estimate.  \n- Their monthly income is $2,034, which adds a small positive boost to the score.  \n\nOverall, the low credit‑card utilization and clean payment history outweigh the modest increase from having several credit lines and the income level, leading the model to label the applicant as unlikely to default.",
+  "flesch_kincaid_grade": 9.56,
+  "flesch_reading_ease": 58.01,
+  "word_count": 106,
+  "timestamp": "2026-09-19T16:37:31.622776+00:00"
+}

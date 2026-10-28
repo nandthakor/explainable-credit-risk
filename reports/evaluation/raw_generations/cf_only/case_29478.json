@@ -1,0 +1,29 @@
+{
+  "case_id": 29478,
+  "arm": "cf_only",
+  "text": "At this time the model does not identify any single change that would automatically turn the decision around.\u202fHowever, you can still strengthen your overall credit profile, which improves the chances of future approval.\u202fStart by paying down existing balances so that you use a smaller portion of each credit limit.\u202fIf you have credit cards or loans, aim to keep utilization below\u202f30\u202fpercent.\u202fConsider adding a secured credit card or a small, on\u2011time installment loan to build positive payment history.\u202fRegularly check your credit reports for errors and dispute any inaccuracies.\u202fSet up automatic payments or reminders to ensure every bill is paid on time.\u202fOver several months of consistent, responsible behavior, your risk rating is likely to improve.",
+  "word_count": 121,
+  "verification_result": {
+    "case_id": 29478,
+    "arm": "cf_only",
+    "text_length": 751,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

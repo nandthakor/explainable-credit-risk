@@ -1,0 +1,31 @@
+{
+  "case_id": 13213,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 87.0%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 87.0% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 100.0%\n   Risk impact    : This factor increases the estimated default risk (+1.412).\n   Interpretation : A utilization of 100.0% means the applicant is using a significant portion of available revolving credit. High utilization is one of the strongest predictors of default risk.\n\n2. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 2\n   Risk impact    : This factor increases the estimated default risk (+1.157).\n   Interpretation : 2 recorded 30-59-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n3. APPLICANT AGE\n   Observed value : 29\n   Risk impact    : This factor increases the estimated default risk (+0.455).\n   Interpretation : At 29 years old, the applicant's age is associated with shorter credit history.\n\nRECOURSE RECOMMENDATIONS\n========================================\nA feasible recourse pathway exists. The following 1 change(s) would reduce the estimated default probability from 87.0% to 45.7% (below the 50% threshold):\n\n  Step 1: Reduce revolving credit utilization (the share of available credit in use)\n    Current value : 100.0%\n    Target value  : 0.0%\n    Action        : Pay down revolving credit balances so total utilization drops from 100.0% to below 0.0%.\n\nNote: These recommendations are derived from a domain-constrained counterfactual search. All suggested changes are directionally feasible (e.g., paying down debt, increasing income). The model predicts that implementing all steps simultaneously would change the assessment to low risk.",
+  "word_count": 293,
+  "verification_result": {
+    "case_id": 13213,
+    "arm": "deterministic_template",
+    "text_length": 2137,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 16,
+    "numbers_matched": 15,
+    "numerical_accuracy": 0.9375,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 1,
+    "recourse_actions_verified": 1,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

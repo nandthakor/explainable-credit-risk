@@ -1,0 +1,29 @@
+{
+  "case_id": 1820,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low\u2011risk**, even though the overall default probability sits at 42.7\u202f%. It arrived at that conclusion by weighing three key signals:\n\n* **Recent late payment (30\u201159 days past due)** \u2013 the applicant has one such occurrence. This adds about\u202f+0.50 to the default\u2011risk score, nudging the risk upward.  \n* **Many open credit lines and loans (19 total)** \u2013 having a large number of accounts contributes roughly\u202f+0.43 to the risk score, also pushing the estimate higher.  \n* **Revolving credit utilization (about\u202f15\u202f%)** \u2013 the applicant is using only a small slice of their revolving credit. This pulls the risk score down by about\u202f\u20110.36, offsetting much of the upward pressure from the other two factors.\n\nTogether, the modest utilization lowers the overall risk enough for the model to classify the applicant as low risk.",
+  "word_count": 141,
+  "verification_result": {
+    "case_id": 1820,
+    "arm": "shap_only",
+    "text_length": 853,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

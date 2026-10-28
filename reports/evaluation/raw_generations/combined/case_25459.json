@@ -1,0 +1,32 @@
+{
+  "case_id": 25459,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model sees you as a low\u2011risk borrower, meaning you are unlikely to miss payments. Three key pieces of information drove that view:  \n\n1. **Age (30 years)** \u2013 Being younger added a small amount of risk, which nudged the default probability a bit higher.  \n2. **Revolving credit utilization (about 14\u202f%)** \u2013 Keeping only a modest portion of your available credit in use lowered your risk noticeably.  \n3. **Times 30\u201159 days past due (0)** \u2013 Having no recent 30\u2011 to 59\u2011day late payments also reduced your risk.\n\nTogether, these factors resulted in an overall default probability of 22.4\u202f%, which the system classifies as low risk.\n\n**How you could improve your score**  \nThe system did not",
+  "word_count": 122,
+  "verification_result": {
+    "case_id": 25459,
+    "arm": "combined",
+    "text_length": 729,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 4,
+    "numbers_matched": 2,
+    "numerical_accuracy": 0.5,
+    "numerical_mismatches": [
+      "2 (=2.00)",
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

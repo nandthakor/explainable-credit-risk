@@ -1,0 +1,29 @@
+{
+  "case_id": 29478,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nOur model looks at the information it has about you and assigns a risk score. Three things stood out:  \n\n1. You have two instances where a payment was more than 90 days late. This alone adds a large amount to the risk estimate.  \n2. You also have three instances of payments that were 30\u201159 days late, which further raises the risk.  \n3. Your revolving\u2011credit utilization is about 48\u202f% of the credit you have available. Using almost half of your credit limit signals higher risk, adding a smaller but still noticeable increase.\n\nTogether, these factors led the model to label the application as \u201chigh risk\u201d with a 97.6\u202f% chance of default.\n\n**What you can do next**  \nThe system",
+  "word_count": 124,
+  "verification_result": {
+    "case_id": 29478,
+    "arm": "combined",
+    "text_length": 710,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 4,
+    "numbers_matched": 4,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

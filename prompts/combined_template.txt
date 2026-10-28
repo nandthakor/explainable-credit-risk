@@ -1,0 +1,14 @@
+You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.
+
+The model predicted {predicted_label} (confidence: {confidence}) for this applicant.
+
+The top contributing factors were:
+{shap_features_formatted}
+
+Additionally, analysis shows that if the following changed:
+{cf_features_formatted}
+the decision would likely flip to the opposite outcome.
+
+In plain, non-technical language, first briefly explain why the decision was made, then explain what the applicant could realistically do to change it.
+
+Keep it under 200 words.

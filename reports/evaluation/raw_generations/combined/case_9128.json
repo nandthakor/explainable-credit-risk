@@ -1,0 +1,31 @@
+{
+  "case_id": 9128,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nOur model looks at the information in your credit file and estimates the chance you might miss a payment. In your case, the estimate is about 52\u202f% \u2013 a \u201chigh\u2011risk\u201d result. The biggest drivers are:\n\n* **Revolving credit utilization** \u2013 You are using about 69\u202f% of the credit that\u2019s available to you. Using a large share of your credit signals higher risk, and this factor added the most to the model\u2019s score.  \n* **Age** \u2013 At 28\u202fyears old, the model gives a modest increase to the risk score.  \n* **Recent late payments** \u2013 You have no 30\u2011to\u201159\u2011day past\u2011due accounts, which actually pulls the risk a little lower, but it isn\u2019t enough to offset the other factors.\n\n**How you can improve the outlook**  \nYou can lower the estimated risk by making a few changes that the model shows would help:\n\n1. **Reduce your revolving\u2011credit utilization** \u2013 Aim to bring it down from 0.69 to about 0.50 (use less of the credit you have).  \n2. **Lower your debt\u2011to\u2011income ratio** \u2013 Reduce it from 0.35 to around 0.20 by paying down existing debt or increasing income.  \n3. **Add more open credit lines** \u2013 Increasing the number of active credit accounts from 7 to roughly 11 can spread out your balances and improve the score.\n\nTaking these steps can bring the",
+  "word_count": 225,
+  "verification_result": {
+    "case_id": 9128,
+    "arm": "combined",
+    "text_length": 1274,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 7,
+    "numbers_matched": 6,
+    "numerical_accuracy": 0.8571428571428571,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 3,
+    "recourse_actions_verified": 3,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

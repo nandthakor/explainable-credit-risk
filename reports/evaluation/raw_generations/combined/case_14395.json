@@ -1,0 +1,29 @@
+{
+  "case_id": 14395,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model labeled your application as \u201clow risk,\u201d meaning it does not expect you to default. It looked at three key factors:  \n\n1. **Revolving credit utilization** \u2013 Your current usage is very high (about 89\u202f% of your available credit). This pushes the risk score upward",
+  "word_count": 52,
+  "verification_result": {
+    "case_id": 14395,
+    "arm": "combined",
+    "text_length": 309,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

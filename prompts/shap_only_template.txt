@@ -1,0 +1,12 @@
+You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.
+
+The model predicted {predicted_label} (confidence: {confidence}) for this applicant.
+
+The top contributing factors, from a model explainability analysis, were:
+{shap_features_formatted}
+
+In plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.
+
+Do not suggest what the applicant could do differently — only explain the reasoning behind THIS decision.
+
+Keep it under 150 words.

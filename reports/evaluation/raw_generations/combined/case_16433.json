@@ -1,0 +1,29 @@
+{
+  "case_id": 16433,
+  "arm": "combined",
+  "text": "**Why the model flagged a high risk**  \nThe model looks at the information it has and found three things that raise the chance you might miss a payment. First, your revolving\u2011credit use is almost at the limit (about 100\u202f% of the available balance), which strongly signals stress. Second, you currently have three mortgages or other real\u2011estate loans, and each additional loan adds to the risk. Finally, at 42\u202fyears old the model\u2019s patterns show a modest increase in risk for borrowers in this age range. Together, these factors led the system to estimate a 68.4\u202f% probability of default, classifying the application as high risk.\n\n**How you can improve the outlook**  \nYou can lower the risk score by making a few targeted changes:  \n- Reduce your revolving\u2011credit utilization from near\u2011full to about 60\u202f% of the limit.  \n- Slightly improve your debt\u2011to\u2011income ratio (e.g., from 0.403 to 0.40).  \n- Increase your monthly income just a little (for example, from $9,780 to $9,791).  \n- Add a few more open credit lines, raising the count from 8 to 12.  \n- Consolidate or pay down real\u2011estate loans so the number drops",
+  "word_count": 189,
+  "verification_result": {
+    "case_id": 16433,
+    "arm": "combined",
+    "text_length": 1115,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 7,
+    "numbers_matched": 7,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 5,
+    "recourse_actions_verified": 5,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 19711,
+  "arm": "cf_only",
+  "text": "At this time the system does not identify any single change that is guaranteed to flip the decision. However, you can still work on the broader factors that lenders typically view positively. Focus on reducing any outstanding balances, especially on revolving credit cards, so your overall credit\u2011utilization ratio drops below\u202f30\u202fpercent. If you have the opportunity, consider opening a small, well\u2011managed credit line (for example, a secured credit card) and use it responsibly for a few months. Keep all existing accounts current and avoid new hard inquiries. Over time, these steps tend to raise your credit profile, which can improve the odds of approval in future applications.",
+  "word_count": 108,
+  "verification_result": {
+    "case_id": 19711,
+    "arm": "cf_only",
+    "text_length": 682,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 12740,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because two of the three key signals point strongly toward a higher chance of default. First, the applicant is using about 92\u202f% of their revolving credit limit; that level of utilization adds the biggest boost to the risk score. Second, there is a record of a payment that was 30\u201159 days late, which also pushes the risk upward. The only factor that slightly pulls the score down is that the applicant has six open credit lines and loans, a modest number that reduces risk a little, but its effect is far smaller than the high utilization and the recent late payment. Together, these inputs lead the model to a 66.8\u202f% default probability and a \u201chigh risk\u201d decision.",
+  "word_count": 126,
+  "verification_result": {
+    "case_id": 12740,
+    "arm": "shap_only",
+    "text_length": 711,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

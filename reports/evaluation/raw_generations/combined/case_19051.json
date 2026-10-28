@@ -1,0 +1,31 @@
+{
+  "case_id": 19051,
+  "arm": "combined",
+  "text": "**Why the model reached this decision**  \nThe model classifies you as \u201clow risk,\u201d meaning it does not expect you to default. However, three key factors influenced the score:  \n\n1. **Age (24 years)** \u2013 Being younger added about\u202f+0.55 to the default\u2011risk estimate, because younger borrowers statistically have a slightly higher chance of missing payments.  \n2. **Revolving credit utilization (\u2248\u202f54\u202f%)",
+  "word_count": 61,
+  "verification_result": {
+    "case_id": 19051,
+    "arm": "combined",
+    "text_length": 398,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 2,
+    "numerical_accuracy": 0.6666666666666666,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 29833,
+  "arm": "combined",
+  "text": "**Why the model made this decision**  \nThe model sees you as a low\u2011risk borrower overall, but it looks closely at three key factors. Your revolving\u2011credit utilization is very high (about 84\u202f% of your available credit). That alone pushes the risk score upward, because using a large share of credit suggests a higher chance of default. On the positive side, your monthly income of $15,000 and the fact that you already have four open credit lines and loans each pull the risk score down, indicating you have the earnings and credit history to manage debt responsibly. The combination of these influences leads the model to label you \u201clow risk,\u201d even though the calculated default probability is 37.6\u202f%.\n\n**What you can do to improve**  \nThe system was unable to identify a feasible, constraint\u2011verified path that would reliably change the decision. In other words, there are no specific, model\u2011approved actions it can recommend at this time. If you are able to lower the portion of credit you are using, that could help reduce the risk signal",
+  "word_count": 175,
+  "verification_result": {
+    "case_id": 29833,
+    "arm": "combined",
+    "text_length": 1041,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

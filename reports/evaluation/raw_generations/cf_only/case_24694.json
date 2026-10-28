@@ -1,0 +1,29 @@
+{
+  "case_id": 24694,
+  "arm": "cf_only",
+  "text": "At this time, the system did not identify any single change that is guaranteed to flip the decision.\u202fNevertheless, you can still work on strengthening your overall credit profile, which improves the chances of approval in future reviews.\u202fConsider paying down existing balances so that you use less than\u202f30\u202fpercent of each credit limit, and avoid opening new credit lines right before you apply.\u202fIf you have any unsecured debt, focus on reducing it steadily.\u202fKeeping a modest, regular savings habit can also demonstrate financial stability.\u202fFinally, ensure that all current accounts stay current and that any errors on your credit report are disputed and corrected.\u202fThese steps generally help raise your creditworthiness over time.",
+  "word_count": 116,
+  "verification_result": {
+    "case_id": 24694,
+    "arm": "cf_only",
+    "text_length": 730,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 3630,
+  "arm": "shap_only",
+  "text": "The model flagged the applicant as **low\u2011risk** even though the calculated default probability is 27.7\u202f%. It arrived at that conclusion by weighing three key pieces of information:\n\n* **Real\u2011estate loans:** The applicant has five mortgages. Each additional mortgage adds risk, and the model assigned a positive SHAP value of\u202f+0.518, pushing the default probability upward.  \n* **Monthly income:** With a monthly income of\u202f$20,833, the applicant shows strong repayment capacity. This contributed a negative SHAP value of\u202f\u20110.338, pulling the risk score down.  \n* **Revolving\u2011credit utilization:** Using only about\u202f19.7\u202f% of available revolving credit signals good credit management. This added a further negative SHAP of\u202f\u20110.254.\n\nWhen the two risk\u2011reducing factors (income and low utilization) are combined, they outweigh the risk added by the five mortgages, leading the model to label the applicant as low risk.",
+  "word_count": 138,
+  "verification_result": {
+    "case_id": 3630,
+    "arm": "shap_only",
+    "text_length": 911,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

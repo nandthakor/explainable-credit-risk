@@ -1,0 +1,29 @@
+{
+  "case_id": 20629,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because two of the three key signals push the default probability upward, outweighing the one factor that pulls it down.  \n\nFirst, the applicant has one recent 30\u2011to\u201159\u2011day past\u2011due payment. That single late payment adds a noticeable amount to the risk score, indicating a recent slip in repayment behavior.  \n\nSecond, the applicant holds a large number of open credit lines\u201420 in total. Having many active accounts raises the model\u2019s concern that the borrower may be over\u2011extended, adding further risk.  \n\nThe only mitigating element is the debt\u2011to\u2011income figure, which, at the observed level, actually reduces risk a bit. However, the combined effect of the late payment and many open accounts is strong enough that the model still classifies the applicant as a 50\u202f% chance of default, i.e., high risk.",
+  "word_count": 135,
+  "verification_result": {
+    "case_id": 20629,
+    "arm": "shap_only",
+    "text_length": 850,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

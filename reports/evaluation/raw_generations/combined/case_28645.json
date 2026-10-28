@@ -1,0 +1,29 @@
+{
+  "case_id": 28645,
+  "arm": "combined",
+  "text": "**Why the model flagged a high risk**  \nThe model looks at three key pieces of information it has about you. First, your revolving\u2011credit utilization is essentially\u202f100\u202f% (0.9999999). Using almost all of the credit you have available is a strong signal that you may have difficulty meeting future payments, and it pushes the default risk upward. Second, your age of\u202f30\u202fyears also adds a modest amount of risk in the model\u2019s view. Finally, you have only one open credit line or loan; having more open accounts would have lowered the risk a little, so this factor works in your favor but not enough to offset the other two.\n\n**How you can improve the decision**  \nThe model shows a clear path to a much lower risk score: bring your revolving\u2011credit utilization down to\u202f0\u202fby paying off the balances on your credit cards or other revolving accounts. Reducing utilization from near\u2011full to zero is expected to drop the predicted default probability from about\u202f61\u202f% to roughly\u202f16\u202f%, moving you into a much safer range for credit approval.",
+  "word_count": 180,
+  "verification_result": {
+    "case_id": 28645,
+    "arm": "combined",
+    "text_length": 1032,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 1,
+    "recourse_actions_verified": 1,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

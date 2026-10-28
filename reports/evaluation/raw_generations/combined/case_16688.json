@@ -1,0 +1,31 @@
+{
+  "case_id": 16688,
+  "arm": "combined",
+  "text": "**Why the model flagged a high risk**  \nThe system looks at the information you\u2019ve shared and estimates an 85\u202f% chance you might miss a future payment. Three things stood out most:  \n\n1. **Credit\u2011card usage** \u2013 You\u2019re using almost every dollar of your available revolving credit (about 100\u202f%). Carrying such a high balance signals difficulty managing debt and pushes the risk score up.  \n2. **Serious delinquency** \u2013 You have one account that was 90\u202f+ days past due. A single serious late payment strongly signals future trouble.  \n3. **Age** \u2013 At 23 you have a shorter credit history, which the model treats as a higher\u2011risk profile.\n\n**How you can improve the outlook**  \nThe model shows two actions that could cut the estimated default chance roughly in half (to about 42\u202f%):  \n\n* **Pay down your revolving balances** so your utilization drops from nearly 100\u202f% to 0\u202f%. Even reducing the balance dramatically will help.  \n* **Lower your debt\u2011to\u2011income ratio** by paying off other debts or increasing income, aiming for a ratio close to 0\u202f%.  \n\nTaking these steps will show lenders you\u2019re managing debt responsibly and can lead to a more favorable credit decision.",
+  "word_count": 196,
+  "verification_result": {
+    "case_id": 16688,
+    "arm": "combined",
+    "text_length": 1166,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 7,
+    "numbers_matched": 6,
+    "numerical_accuracy": 0.8571428571428571,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

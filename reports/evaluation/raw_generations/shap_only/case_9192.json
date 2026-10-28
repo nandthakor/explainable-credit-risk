@@ -1,0 +1,29 @@
+{
+  "case_id": 9192,
+  "arm": "shap_only",
+  "text": "The model flagged the applicant as **low\u2011risk**, even though the overall default probability sits at 48\u202f%. The three factors it actually looked at tell the story:\n\n* **Revolving\u2011credit utilization** is high (about 78\u202f% of the available credit is being used). This pushes the risk score upward, adding roughly\u202f+0.97 points to the default\u2011risk side.  \n* **Times 30\u201159 days past due** is zero, meaning the borrower has no recent late payments. This pulls the risk score down by about\u202f\u20110.15 points.  \n* **Number of open credit lines and loans** is five, indicating a diversified credit portfolio. That also reduces risk, contributing about\u202f\u20110.14 points.\n\nThe two risk\u2011reducing factors together offset much of the increase from high utilization, leading the model to label the applicant as low risk overall.",
+  "word_count": 129,
+  "verification_result": {
+    "case_id": 9192,
+    "arm": "shap_only",
+    "text_length": 802,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

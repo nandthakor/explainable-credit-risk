@@ -1,0 +1,29 @@
+{
+  "case_id": 14206,
+  "arm": "combined",
+  "text": "**Why the model gave this decision**\n\nThe model looks at a few key pieces of your credit profile. It sees that you are using only a small portion of your revolving credit (about\u202f4.5\u202f% of the limit). That low utilization pulls your risk down, because it shows you are not relying heavily on borrowed money. You also have no recent 30\u2011to\u201159\u2011day past\u2011due balances, which further reduces the chance of default",
+  "word_count": 71,
+  "verification_result": {
+    "case_id": 14206,
+    "arm": "combined",
+    "text_length": 405,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

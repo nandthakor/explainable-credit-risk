@@ -1,0 +1,29 @@
+{
+  "case_id": 25459,
+  "arm": "cf_only",
+  "text": "While the current analysis didn\u2019t identify a specific step that would automatically change the decision, there are still practical moves you can take to strengthen your overall credit profile and improve future approval chances.\u202fFocus on reducing any outstanding balances to lower your credit\u2011card utilization, and aim to keep it under 30\u202f% of each limit.\u202fIf possible, add a small, regular installment\u2014such as a credit\u2011builder loan or a secured credit card\u2014and make every payment on time.\u202fMaintain a steady savings habit to show financial stability, and avoid opening many new accounts at once.\u202fThese actions can gradually raise your credit standing and make future applications more likely to succeed.",
+  "word_count": 110,
+  "verification_result": {
+    "case_id": 25459,
+    "arm": "cf_only",
+    "text_length": 702,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

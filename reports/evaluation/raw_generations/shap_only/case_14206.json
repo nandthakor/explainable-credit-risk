@@ -1,0 +1,29 @@
+{
+  "case_id": 14206,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low risk** because the overall contribution of the three factors it examined pushes the default probability down.  \n\n- **Revolving\u2011credit utilization** is very low (about\u202f4.5\u202f% of the available limit). This small usage strongly reduces risk, giving a negative SHAP value of\u202f\u20110.569.  \n- **Number of open credit lines and loans** is relatively high at\u202f16. Having many accounts adds some risk, reflected by a positive SHAP of\u202f+0.304.  \n- **Times 30\u201159 days past due** is zero, meaning the applicant has no recent moderate\u2011severity delinquencies. This also lowers risk, with a SHAP of\u202f\u20110.152.  \n\nWhen the reductions from low utilization and no recent past\u2011due balances are combined with the modest increase from many open accounts, the net effect is a lower overall default risk, leading to the \u201clow risk\u201d decision.",
+  "word_count": 136,
+  "verification_result": {
+    "case_id": 14206,
+    "arm": "shap_only",
+    "text_length": 848,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

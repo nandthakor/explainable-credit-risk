@@ -1,0 +1,164 @@
+[
+  {
+    "instance_id": 34,
+    "task": "classification",
+    "case_type": "true_positive",
+    "actual": 1.0,
+    "predicted": 1.0,
+    "features": {
+      "revolving_util": 0.9999999,
+      "age": 35.0,
+      "late_30_59_days": 1.0,
+      "debt_ratio": 0.355086372,
+      "monthly_income": 2083.0,
+      "open_credit_lines": 10.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 0.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 2.0,
+      "monthly_income_missing": 0.0
+    },
+    "predicted_proba": 0.804028855983424
+  },
+  {
+    "instance_id": 3,
+    "task": "classification",
+    "case_type": "true_negative",
+    "actual": 0.0,
+    "predicted": 0.0,
+    "features": {
+      "revolving_util": 0.005186135,
+      "age": 59.0,
+      "late_30_59_days": 0.0,
+      "debt_ratio": 0.001558361,
+      "monthly_income": 6416.0,
+      "open_credit_lines": 8.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 0.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 0.0,
+      "monthly_income_missing": 0.0
+    },
+    "predicted_proba": 0.11873802685337528
+  },
+  {
+    "instance_id": 2,
+    "task": "classification",
+    "case_type": "false_positive",
+    "actual": 0.0,
+    "predicted": 1.0,
+    "features": {
+      "revolving_util": 0.585298929,
+      "age": 59.0,
+      "late_30_59_days": 3.0,
+      "debt_ratio": 0.40332397,
+      "monthly_income": 4271.0,
+      "open_credit_lines": 8.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 0.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 3.0,
+      "monthly_income_missing": 0.0
+    },
+    "predicted_proba": 0.7830728613627759
+  },
+  {
+    "instance_id": 73,
+    "task": "classification",
+    "case_type": "false_negative",
+    "actual": 1.0,
+    "predicted": 0.0,
+    "features": {
+      "revolving_util": 0.102035169,
+      "age": 53.0,
+      "late_30_59_days": 0.0,
+      "debt_ratio": 0.442751843,
+      "monthly_income": 2034.0,
+      "open_credit_lines": 13.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 1.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 0.0,
+      "monthly_income_missing": 0.0
+    },
+    "predicted_proba": 0.2223699580159658
+  },
+  {
+    "instance_id": 1,
+    "task": "classification",
+    "case_type": "borderline",
+    "actual": 0.0,
+    "predicted": 1.0,
+    "features": {
+      "revolving_util": 0.568289199,
+      "age": 58.0,
+      "late_30_59_days": 1.0,
+      "debt_ratio": 0.367469378,
+      "monthly_income": 12000.0,
+      "open_credit_lines": 11.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 2.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 0.0,
+      "monthly_income_missing": 0.0
+    },
+    "predicted_proba": 0.5219377711238247
+  },
+  {
+    "instance_id": 21769,
+    "task": "regression",
+    "case_type": "low_income_low_error",
+    "actual": 3000.0,
+    "predicted": 2997.6583180705557,
+    "features": {
+      "revolving_util": 1.033305579,
+      "age": 26.0,
+      "late_30_59_days": 0.0,
+      "debt_ratio": 0.03098967,
+      "open_credit_lines": 3.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 0.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 0.0,
+      "monthly_income_missing": 0.0
+    }
+  },
+  {
+    "instance_id": 1721,
+    "task": "regression",
+    "case_type": "high_income_low_error",
+    "actual": 8400.0,
+    "predicted": 8401.290157930493,
+    "features": {
+      "revolving_util": 0.391611038,
+      "age": 37.0,
+      "late_30_59_days": 0.0,
+      "debt_ratio": 0.312105702,
+      "open_credit_lines": 9.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 2.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 2.0,
+      "monthly_income_missing": 0.0
+    }
+  },
+  {
+    "instance_id": 2015,
+    "task": "regression",
+    "case_type": "high_error",
+    "actual": 629000.0,
+    "predicted": 5390.3285678518,
+    "features": {
+      "revolving_util": 0.0,
+      "age": 83.0,
+      "late_30_59_days": 0.0,
+      "debt_ratio": 0.0,
+      "open_credit_lines": 3.0,
+      "late_90_days": 0.0,
+      "real_estate_loans": 0.0,
+      "late_60_89_days": 0.0,
+      "num_dependents": 0.0,
+      "monthly_income_missing": 0.0
+    }
+  }
+]

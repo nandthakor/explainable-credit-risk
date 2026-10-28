@@ -1,0 +1,31 @@
+{
+  "case_id": 15659,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 87.7%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 87.7% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 2\n   Risk impact    : This factor increases the estimated default risk (+1.157).\n   Interpretation : 2 recorded 30-59-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n2. NUMBER OF TIMES 60-89 DAYS PAST DUE (MODERATE DELINQUENCIES)\n   Observed value : 1\n   Risk impact    : This factor increases the estimated default risk (+0.988).\n   Interpretation : 1 recorded 60-89-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n3. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 59.1%\n   Risk impact    : This factor increases the estimated default risk (+0.564).\n   Interpretation : A utilization of 59.1% means the applicant is using a significant portion of available revolving credit. High utilization is one of the strongest predictors of default risk.\n\nRECOURSE RECOMMENDATIONS\n========================================\nAfter exhaustive search, no feasible recourse pathway was identified under the current domain constraints. This means that within the set of changes a borrower can realistically make (reducing debt, improving credit utilization, increasing income), no single combination was found that would flip the model's assessment to low risk while respecting all domain rules. This may reflect that the adverse factors are primarily driven by features that cannot be immediately improved.",
+  "word_count": 273,
+  "verification_result": {
+    "case_id": 15659,
+    "arm": "deterministic_template",
+    "text_length": 1991,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 8,
+    "numerical_accuracy": 0.8888888888888888,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

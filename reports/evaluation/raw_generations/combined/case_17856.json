@@ -1,0 +1,29 @@
+{
+  "case_id": 17856,
+  "arm": "combined",
+  "text": "**Why the decision was made**  \nOur model looks at a few key numbers to estimate the chance you might miss a payment. It saw two things that raise the risk: you have two accounts that are 30\u201159 days past due, and your revolving\u2011credit use is high (about 75% of the limit). Both of these push the probability of default upward. One factor, your debt\u2011to\u2011income ratio, is very large, but in this case it actually nudged the risk a little lower, so it did not offset the other concerns. Altogether, the model estimated a 73\u202f% chance of default, which it classifies as high risk.\n\n**How you can improve the outlook**  \nYou can lower the risk score by making a few changes that the system knows help:  \n1. Reduce the amount you owe on revolving credit so it falls to about 10\u202f% of the limit.  \n2. Slightly lower your debt\u2011to\u2011income figure (for example, from 3114 to 3113).  \n3. Add one more open credit line or loan, moving from 8 to 9 accounts.  \n\nIf you can achieve these adjustments, the model projects the default probability could drop to around 43\u202f%, moving you into a more favorable range.",
+  "word_count": 197,
+  "verification_result": {
+    "case_id": 17856,
+    "arm": "combined",
+    "text_length": 1090,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 10,
+    "numbers_matched": 10,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 3,
+    "recourse_actions_verified": 3,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

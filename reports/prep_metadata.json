@@ -1,0 +1,6 @@
+{
+  "train_median_income_used_for_imputation": 5400.0,
+  "winsor_percentile": 99,
+  "random_state": 42,
+  "test_size": 0.2
+}

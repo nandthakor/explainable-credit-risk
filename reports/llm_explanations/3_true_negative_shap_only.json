@@ -1,0 +1,13 @@
+{
+  "instance_id": 3,
+  "case_type": "true_negative",
+  "arm": "shap_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining an automated credit decision to a loan officer, who will relay it to the applicant.\n\nThe model predicted LOW RISK (unlikely to default) (confidence: 11.9%) for this applicant.\n\nThe top contributing factors, from a model explainability analysis, were:\n  1. Revolving Util (value: 0.005186) - strongly decreases the prediction (impact: -0.6501)\n  2. Late 30 59 Days (value: 0) - moderately decreases the prediction (impact: -0.1466)\n  3. Real Estate Loans (value: 0) - moderately decreases the prediction (impact: -0.1334)\n  4. Age (value: 59) - moderately decreases the prediction (impact: -0.1300)\n  5. Late 90 Days (value: 0) - slightly decreases the prediction (impact: -0.0904)\n\nIn plain, non-technical language, explain why the model reached this decision, referencing only the factors listed above.\n\nDo not suggest what the applicant could do differently â€” only explain the reasoning behind THIS decision.\n\nKeep it under 150 words.\n",
+  "raw_response": "The model sees this applicant as a low‑risk borrower because several key pieces of their credit profile pull the risk score down:\n\n* Their revolving‑credit usage is very low (the balance is only a tiny fraction of the available credit), which strongly lowers the risk estimate.  \n* They have no recent late payments of 30‑59 days, and no 90‑day delinquencies, each of which further reduces the risk.  \n* They do not have any real‑estate loans on their record, another factor that lessens the chance of default.  \n* At 59 years old, the age factor also contributes modestly to a lower risk assessment.\n\nTogether, these five elements combine to make the model confident that the applicant is unlikely to default.",
+  "flesch_kincaid_grade": 12.16,
+  "flesch_reading_ease": 48.87,
+  "word_count": 115,
+  "timestamp": "2026-09-19T16:37:02.111544+00:00"
+}

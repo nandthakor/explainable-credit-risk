@@ -1,0 +1,29 @@
+{
+  "case_id": 5254,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because three key signals pushed the default probability up sharply. First, the record shows one instance of a serious delinquency\u2014 a payment that was 90\u202f+\u202fdays past due. That alone added a large amount to the risk score. Second, there are two recent 30\u2011to\u201159\u2011day late payments, which further increased the model\u2019s concern. Finally, the applicant\u2019s revolving\u2011credit usage is very high\u2014about 81\u202f% of the available limit\u2014showing that most of the credit line is already being used, which the model interprets as another strong warning sign. Together, these three factors drove the probability of default to 89.9\u202f%, resulting in the \u201chigh risk\u201d decision.",
+  "word_count": 111,
+  "verification_result": {
+    "case_id": 5254,
+    "arm": "shap_only",
+    "text_length": 696,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

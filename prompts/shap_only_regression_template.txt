@@ -1,0 +1,12 @@
+You are explaining an automated income estimation to a loan officer, who will relay it to the applicant.
+
+The model estimated this applicant's monthly income at {predicted_income} (actual reported income: {actual_income}).
+
+The top contributing factors, from a model explainability analysis, were:
+{shap_features_formatted}
+
+In plain, non-technical language, explain why the model arrived at this income estimate, referencing only the factors listed above.
+
+Do not suggest what the applicant could do to change the estimate — only explain how the model reached THIS figure.
+
+Keep it under 150 words.

@@ -1,0 +1,29 @@
+{
+  "case_id": 29833,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as **low\u2011risk** because the overall influence of the three key variables pushes the predicted default probability down.  \n\n- **Revolving\u2011credit utilization** is high (about 84\u202f% of the available limit). The SHAP value of **+1.09** means this factor pulls the risk upward, making default more likely.  \n- **Monthly income** is strong at $15,000. Its SHAP contribution of **\u20110.20** pulls the risk downward, indicating that higher earnings reduce the chance of default.  \n- **Number of open credit lines and loans** is modest (four). The SHAP of **\u20110.18** also lowers risk, showing that having a few existing accounts is viewed positively.  \n\nWhen the negative contributions from income and open lines are combined with the positive impact of utilization, the net effect is a lower overall risk, leading the model to classify the applicant as low risk.",
+  "word_count": 138,
+  "verification_result": {
+    "case_id": 29833,
+    "arm": "shap_only",
+    "text_length": 881,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

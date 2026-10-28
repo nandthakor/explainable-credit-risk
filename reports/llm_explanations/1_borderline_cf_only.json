@@ -1,0 +1,13 @@
+{
+  "instance_id": 1,
+  "case_type": "borderline",
+  "arm": "cf_only",
+  "model_name": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "prompt_used": "You are explaining to a loan officer, who will relay it to the applicant, what changes would lead to a different credit decision.\n\nThe model predicted HIGH RISK (likely to default) for this applicant.\n\nAnalysis shows that if the following changed:\n  - Revolving Util: 0.5683 -> 0.5 (decrease)\n  - Late 30 59 Days: 1 -> 0 (decrease)\n  - Debt Ratio: 0.3675 -> 0.3 (decrease)\n  - Open Credit Lines: 11 -> 7 (decrease)\nthe decision would likely flip to the opposite outcome.\n\nIn plain, non-technical language, explain what the applicant could realistically do to change the outcome, based only on these changes.\n\nDo not explain why the current decision was made â€” only what would change it.\n\nKeep it under 150 words.\n",
+  "raw_response": "To move the decision to a more favorable result, the applicant could:\n\n1. **Pay down credit‑card balances** so the amount they’re using drops from about 57 % of their limits to 50 % or less.  \n2. **Avoid any 30‑ to 59‑day late payments**; keeping all bills current will bring that count to zero.  \n3. **Reduce overall debt** (or increase verified income) so the total debt‑to‑income figure falls from roughly 37 % to 30 % or lower.  \n4. **Close or stop using some credit accounts** so the number of open lines goes from 11 down to about 7.\n\nThese steps focus on lowering the amount owed, staying current on payments, and simplifying the credit profile.",
+  "flesch_kincaid_grade": 9.15,
+  "flesch_reading_ease": 62.1,
+  "word_count": 110,
+  "timestamp": "2026-09-19T16:37:51.385719+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 29478,
+  "arm": "shap_only",
+  "text": "The model flagged the applicant as\u202fhigh\u2011risk because of three key signals it sees as warning signs. First, the borrower has been 90\u202fdays or more past due on a debt twice; each of those serious delinquencies adds a large amount to the risk score (a\u202f+2.45 contribution). Second, there are three instances of being 30\u201159\u202fdays past due, which also push the score upward (+1.81). Finally, the borrower is using about 48\u202f% of the available revolving credit, and that level of utilization adds a smaller but still positive amount (+0.34). Together, these three factors drive the model\u2019s estimate of a 97.6\u202f% chance of default, resulting in the \u201chigh risk\u201d decision.",
+  "word_count": 113,
+  "verification_result": {
+    "case_id": 29478,
+    "arm": "shap_only",
+    "text_length": 658,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

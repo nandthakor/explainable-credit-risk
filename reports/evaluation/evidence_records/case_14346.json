@@ -1,0 +1,203 @@
+{
+  "case_id": 14346,
+  "prediction": {
+    "predicted_class": 1,
+    "predicted_proba": 0.5536,
+    "raw_log_odds": 0.21523,
+    "threshold": 0.5,
+    "actual_label": 0,
+    "case_category": "borderline"
+  },
+  "shap_attributions": {
+    "base_value": -0.76578,
+    "top_features": [
+      {
+        "rank": 1,
+        "feature_name": "revolving_util",
+        "feature_value": 0.9999999,
+        "shap_value": 1.41177,
+        "direction": "increases_risk",
+        "abs_shap": 1.41177
+      },
+      {
+        "rank": 2,
+        "feature_name": "open_credit_lines",
+        "feature_value": 1.0,
+        "shap_value": -0.30091,
+        "direction": "decreases_risk",
+        "abs_shap": 0.30091
+      },
+      {
+        "rank": 3,
+        "feature_name": "age",
+        "feature_value": 41.0,
+        "shap_value": 0.22096,
+        "direction": "increases_risk",
+        "abs_shap": 0.22096
+      },
+      {
+        "rank": 4,
+        "feature_name": "late_30_59_days",
+        "feature_value": 0.0,
+        "shap_value": -0.15167,
+        "direction": "decreases_risk",
+        "abs_shap": 0.15167
+      },
+      {
+        "rank": 5,
+        "feature_name": "real_estate_loans",
+        "feature_value": 0.0,
+        "shap_value": -0.13261,
+        "direction": "decreases_risk",
+        "abs_shap": 0.13261
+      }
+    ],
+    "all_shap_values": {
+      "revolving_util": 1.41177,
+      "age": 0.22096,
+      "late_30_59_days": -0.15167,
+      "debt_ratio": 0.03889,
+      "monthly_income": 0.06352,
+      "open_credit_lines": -0.30091,
+      "late_90_days": -0.09314,
+      "real_estate_loans": -0.13261,
+      "late_60_89_days": -0.06311,
+      "num_dependents": 0.00621,
+      "monthly_income_missing": -0.01889
+    }
+  },
+  "counterfactual_recourse": {
+    "num_requested": 3,
+    "num_generated": 3,
+    "num_passed_funnel": 1,
+    "candidates": [
+      {
+        "cf_index": 0,
+        "changed_features": [
+          {
+            "feature_name": "revolving_util",
+            "original_value": 0.9999999,
+            "cf_value": 0.6,
+            "direction": "decrease",
+            "delta": -0.3999999000000001
+          },
+          {
+            "feature_name": "debt_ratio",
+            "original_value": 0.121334409,
+            "cf_value": 0.5,
+            "direction": "increase",
+            "delta": 0.37866559099999997
+          },
+          {
+            "feature_name": "monthly_income",
+            "original_value": 3716.0,
+            "cf_value": 3709.0,
+            "direction": "decrease",
+            "delta": -7.0
+          },
+          {
+            "feature_name": "open_credit_lines",
+            "original_value": 1.0,
+            "cf_value": 8.0,
+            "direction": "increase",
+            "delta": 7.0
+          }
+        ],
+        "cf_predicted_class": 0,
+        "cf_predicted_proba": 0.41772,
+        "verification": {
+          "model_valid": true,
+          "constraints_satisfied": false,
+          "sparsity_l0": 4,
+          "gower_distance": 0.044238,
+          "violations": [
+            "Direction violation: 'debt_ratio' must decrease but went 0.1213 -> 0.5000",
+            "Direction violation: 'monthly_income' must increase but went 3716.0000 -> 3709.0000"
+          ],
+          "final_status": "REJECTED"
+        }
+      },
+      {
+        "cf_index": 1,
+        "changed_features": [
+          {
+            "feature_name": "revolving_util",
+            "original_value": 0.9999999,
+            "cf_value": 0.2,
+            "direction": "decrease",
+            "delta": -0.7999999
+          },
+          {
+            "feature_name": "debt_ratio",
+            "original_value": 0.121334409,
+            "cf_value": 0.2,
+            "direction": "increase",
+            "delta": 0.078665591
+          },
+          {
+            "feature_name": "open_credit_lines",
+            "original_value": 1.0,
+            "cf_value": 8.0,
+            "direction": "increase",
+            "delta": 7.0
+          }
+        ],
+        "cf_predicted_class": 0,
+        "cf_predicted_proba": 0.2383,
+        "verification": {
+          "model_valid": true,
+          "constraints_satisfied": false,
+          "sparsity_l0": 3,
+          "gower_distance": 0.077491,
+          "violations": [
+            "Direction violation: 'debt_ratio' must decrease but went 0.1213 -> 0.2000"
+          ],
+          "final_status": "REJECTED"
+        }
+      },
+      {
+        "cf_index": 2,
+        "changed_features": [
+          {
+            "feature_name": "revolving_util",
+            "original_value": 0.9999999,
+            "cf_value": 0.4,
+            "direction": "decrease",
+            "delta": -0.5999999
+          },
+          {
+            "feature_name": "debt_ratio",
+            "original_value": 0.121334409,
+            "cf_value": 0.1,
+            "direction": "decrease",
+            "delta": -0.021334409
+          },
+          {
+            "feature_name": "monthly_income",
+            "original_value": 3716.0,
+            "cf_value": 3721.0,
+            "direction": "increase",
+            "delta": 5.0
+          },
+          {
+            "feature_name": "open_credit_lines",
+            "original_value": 1.0,
+            "cf_value": 5.0,
+            "direction": "increase",
+            "delta": 4.0
+          }
+        ],
+        "cf_predicted_class": 0,
+        "cf_predicted_proba": 0.29562,
+        "verification": {
+          "model_valid": true,
+          "constraints_satisfied": true,
+          "sparsity_l0": 4,
+          "gower_distance": 0.056159,
+          "violations": [],
+          "final_status": "PASSED"
+        }
+      }
+    ]
+  }
+}

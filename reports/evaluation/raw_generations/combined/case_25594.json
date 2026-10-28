@@ -1,0 +1,31 @@
+{
+  "case_id": 25594,
+  "arm": "combined",
+  "text": "**Why the model gave you a low\u2011risk decision**  \nThe model looks at a few key pieces of your credit profile. First, your revolving\u2011credit utilization is about 10\u202f% of the available limit. Keeping balances low like this signals that you\u2019re not over\u2011extending yourself, which pulls your risk down. Second, you have two open credit lines and loans. Having a modest number of accounts shows you can manage credit responsibly, further lowering the chance of default. Finally, you have no recent 30\u2011 to 59\u2011day past\u2011due items. The absence of these small delinquencies is another positive sign. Together, these factors lead the model to label you as \u201clow risk\u201d with an estimated 12.8\u202f% probability of default, well below the threshold for higher\u2011risk classifications.\n\n**How you could improve further**  \nAt this time, the system did not identify any feasible, constraint\u2011verified actions you could take that would meaningfully change the decision. Continuing the habits that earned you this low\u2011risk rating\u2014keeping balances low, maintaining a manageable number of credit accounts, and avoiding late payments\u2014will help you stay in good standing.",
+  "word_count": 176,
+  "verification_result": {
+    "case_id": 25594,
+    "arm": "combined",
+    "text_length": 1137,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 1,
+    "numerical_accuracy": 0.5,
+    "numerical_mismatches": [
+      "10 (=10.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

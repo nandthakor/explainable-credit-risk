@@ -1,0 +1,33 @@
+[
+  {
+    "changed_features": [
+      {
+        "feature_name": "revolving_util",
+        "original_value": 0.568289,
+        "cf_value": 0.5,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "late_30_59_days",
+        "original_value": 1.0,
+        "cf_value": 0.0,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "debt_ratio",
+        "original_value": 0.367469,
+        "cf_value": 0.3,
+        "direction": "decrease"
+      },
+      {
+        "feature_name": "open_credit_lines",
+        "original_value": 11.0,
+        "cf_value": 7.0,
+        "direction": "decrease"
+      }
+    ],
+    "validity": true,
+    "proximity_score": 0.116193,
+    "num_features_changed": 4
+  }
+]

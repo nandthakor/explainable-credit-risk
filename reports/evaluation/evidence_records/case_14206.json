@@ -1,0 +1,76 @@
+{
+  "case_id": 14206,
+  "prediction": {
+    "predicted_class": 0,
+    "predicted_proba": 0.20176,
+    "raw_log_odds": -1.37531,
+    "threshold": 0.5,
+    "actual_label": 0,
+    "case_category": "true_negative"
+  },
+  "shap_attributions": {
+    "base_value": -0.76578,
+    "top_features": [
+      {
+        "rank": 1,
+        "feature_name": "revolving_util",
+        "feature_value": 0.045067285,
+        "shap_value": -0.56918,
+        "direction": "decreases_risk",
+        "abs_shap": 0.56918
+      },
+      {
+        "rank": 2,
+        "feature_name": "open_credit_lines",
+        "feature_value": 16.0,
+        "shap_value": 0.30401,
+        "direction": "increases_risk",
+        "abs_shap": 0.30401
+      },
+      {
+        "rank": 3,
+        "feature_name": "late_30_59_days",
+        "feature_value": 0.0,
+        "shap_value": -0.15167,
+        "direction": "decreases_risk",
+        "abs_shap": 0.15167
+      },
+      {
+        "rank": 4,
+        "feature_name": "late_90_days",
+        "feature_value": 0.0,
+        "shap_value": -0.09314,
+        "direction": "decreases_risk",
+        "abs_shap": 0.09314
+      },
+      {
+        "rank": 5,
+        "feature_name": "age",
+        "feature_value": 57.0,
+        "shap_value": -0.09121,
+        "direction": "decreases_risk",
+        "abs_shap": 0.09121
+      }
+    ],
+    "all_shap_values": {
+      "revolving_util": -0.56918,
+      "age": -0.09121,
+      "late_30_59_days": -0.15167,
+      "debt_ratio": 0.03887,
+      "monthly_income": 0.03104,
+      "open_credit_lines": 0.30401,
+      "late_90_days": -0.09314,
+      "real_estate_loans": -0.00245,
+      "late_60_89_days": -0.06311,
+      "num_dependents": 0.00621,
+      "monthly_income_missing": -0.01889
+    }
+  },
+  "counterfactual_recourse": {
+    "num_requested": 3,
+    "num_generated": 0,
+    "num_passed_funnel": 0,
+    "candidates": [],
+    "reason_skipped": "not_adverse"
+  }
+}

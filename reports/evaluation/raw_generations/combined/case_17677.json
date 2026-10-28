@@ -1,0 +1,29 @@
+{
+  "case_id": 17677,
+  "arm": "combined",
+  "text": "**Why the model gave you a low\u2011risk decision**  \nThe model looks at a few key pieces of information and found them all to lower the chance you might miss a payment. First, your revolving\u2011credit utilization is extremely low (about 0.2\u202f% of the available limit). Using only a tiny fraction of credit signals strong control of debt, which pulls the risk score down. Second, your age of 77 is associated with a lower default probability in the data, further reducing risk. Third, a monthly income of\u202f$14,500 shows a solid ability to meet obligations, adding another downward push on the risk estimate. Together, these factors lead the model to label you as \u201clow risk\u201d with an estimated 8.8\u202f% chance of default.\n\n**What you can do to improve further**  \nThe system did not identify any specific, feasible actions that would meaningfully change the decision at this time. Continuing the habits that are already working\u2014keeping credit utilization very low and maintaining your current income level\u2014will help preserve this favorable assessment.",
+  "word_count": 169,
+  "verification_result": {
+    "case_id": 17677,
+    "arm": "combined",
+    "text_length": 1036,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

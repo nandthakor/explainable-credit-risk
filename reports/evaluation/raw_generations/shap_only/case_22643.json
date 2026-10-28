@@ -1,0 +1,29 @@
+{
+  "case_id": 22643,
+  "arm": "shap_only",
+  "text": "The model flagged the applicant as high\u2011risk because the strongest driver was a very high revolving\u2011credit utilization. At a utilization rate of about 76\u202f%, the model added roughly 0.91 points to the default probability, indicating that the borrower is using most of the credit available to them. The applicant\u2019s age of 40 also nudged the risk upward, contributing an additional 0.24 points. The only factor that pulled the score down was the absence of any 30\u2011to\u201159\u2011day past\u2011due accounts, which reduced the risk by about 0.15 points. When the large positive contributions from utilization and age outweigh the small negative impact from clean recent payment history, the overall probability rises to 50.5\u202f%, leading the model to label the loan as high risk.",
+  "word_count": 123,
+  "verification_result": {
+    "case_id": 22643,
+    "arm": "shap_only",
+    "text_length": 758,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

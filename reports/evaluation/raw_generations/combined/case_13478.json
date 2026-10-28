@@ -1,0 +1,29 @@
+{
+  "case_id": 13478,
+  "arm": "combined",
+  "text": "**Why the model gave you a low\u2011risk rating**  \nThe model looks at a few key pieces of your credit profile. First, your revolving\u2011credit utilization is very low (about 4\u202f% of the available balance). Using only a small portion of your credit limits signals that you manage debt responsibly, and this pulls your risk down. Second, the model sees that you are 42 years old. In this particular calculation, being older adds a small amount of risk, which is why it nudges the score up a little. Finally, you have four open credit lines and loans. Having several active accounts shows a longer credit history and spreads risk, which again lowers the overall chance of default. When these factors are combined, the model estimates a 16\u202f% probability of default and classifies you as \u201clow risk.\u201d\n\n**What you can do next**  \nThe system did not find any specific, feasible actions that would reliably change the decision. Continuing the habits that are already helping\u2014keeping your credit\u2011card balances low and maintaining your existing credit accounts\u2014will keep your profile strong. If you ever open new credit responsibly, the same low\u2011utilization pattern will continue to work in your favor.",
+  "word_count": 195,
+  "verification_result": {
+    "case_id": 13478,
+    "arm": "combined",
+    "text_length": 1183,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

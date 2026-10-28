@@ -1,0 +1,29 @@
+{
+  "case_id": 24694,
+  "arm": "shap_only",
+  "text": "The model flagged three points that moved the risk score in opposite directions.\u202fHaving three real\u2011estate loans or mortgages added\u202f+0.258 to the default\u2011risk estimate, meaning the model views a larger mortgage portfolio as a factor that raises the chance of default.\u202fBeing 43 years old contributed\u202f+0.182, which the model interprets as a modest increase in risk for that age group.\u202fConversely, the applicant has no 30\u2011 to 59\u2011day past\u2011due accounts, which contributed\u202f\u20110.152, pulling the risk estimate down because a clean recent payment history lowers default likelihood.\u202fThese opposing influences together resulted in the overall \u201clow\u2011risk\u201d decision despite the individual risk\u2011raising factors.",
+  "word_count": 104,
+  "verification_result": {
+    "case_id": 24694,
+    "arm": "shap_only",
+    "text_length": 694,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

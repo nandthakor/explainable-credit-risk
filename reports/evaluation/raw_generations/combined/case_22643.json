@@ -1,0 +1,29 @@
+{
+  "case_id": 22643,
+  "arm": "combined",
+  "text": "**Why the model gave a \u201chigh\u2011risk\u201d decision**  \nThe model looks at the factors that most affect the chance of missing a payment. Your credit\u2011card balance is using about 76\u202f% of the credit you have available. Carrying such a high balance is a strong signal that you may have trouble paying back new debt, and it added the biggest boost to the risk score. Being 40\u202fyears old also contributed a smaller increase to the risk estimate. On the positive side, you have no recent 30\u2011 to 59\u2011day late payments, which slightly lowered the risk, but it was not enough to offset the other concerns. Altogether, the model estimated a 50.5\u202f% probability of default, which it classifies as high risk.\n\n**How you can improve the decision**  \nYou can lower the risk by reducing the amount of credit you\u2019re using. Paying down your revolving balances so that utilization falls to around 30\u202f% (instead of 76\u202f%) would have a big impact. Cutting your overall debt\u2011to\u2011income ratio from about 39\u202f% to 10\u202f%\u2014for example by paying off other loans or increasing your income\u2014also helps. Even a modest increase in monthly income (e.g., from $4,746 to $4,747) moves the score in the right direction. Making these changes could bring the estimated default probability down to roughly 28\u202f%, moving you into a more favorable credit category.",
+  "word_count": 226,
+  "verification_result": {
+    "case_id": 22643,
+    "arm": "combined",
+    "text_length": 1306,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 9,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 10920,
+  "arm": "cf_only",
+  "text": "At this time the model does not show any single change that would automatically flip the decision.\u202fHowever, strengthening the overall credit profile can still improve the chances of approval.\u202fFocus on lowering the amount you owe relative to your credit limits\u2014pay down existing balances and keep utilization under\u202f30\u202fpercent.\u202fIf possible, add a small, well\u2011managed credit line (such as a secured card) and make on\u2011time payments to build a positive record.\u202fMaintain a steady source of income and avoid taking on new loans or large purchases until the balances are reduced.\u202fKeeping a clear, low\u2011debt picture and demonstrating reliable payment behavior over several months will make the application more attractive to lenders.",
+  "word_count": 114,
+  "verification_result": {
+    "case_id": 10920,
+    "arm": "cf_only",
+    "text_length": 723,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

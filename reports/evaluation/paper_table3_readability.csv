@@ -1,0 +1,5 @@
+Arm,N_Cases,Flesch_Kincaid_Grade,Flesch_Reading_Ease,Mean_Word_Count
+SHAP-Only (Arm 1),50,9.77,50.52,126.6
+CF-Only (Arm 2),50,11.92,40.77,155.0
+Combined (Arm 3),50,9.17,57.02,141.3
+Deterministic Template (Arm 4),50,11.22,34.61,261.6

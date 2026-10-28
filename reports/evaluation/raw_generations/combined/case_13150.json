@@ -1,0 +1,29 @@
+{
+  "case_id": 13150,
+  "arm": "combined",
+  "text": "**Why the model reached this decision**  \nThe model looks at a few key factors. Your age of 34 adds a modest amount of risk, and the amount of credit you are using \u2013 about 43\u202f% of your available revolving credit \u2013 also pushes the risk higher. On the positive side, you have no recent 30\u2011to\u201159\u2011day past\u2011due accounts, which pulls the risk down. When these influences are combined, the system still classifies you as \u201clow risk,\u201d even though the calculated probability of default is around 40\u202f%. In other words, the overall pattern is seen as acceptable, but the specific numbers keep the",
+  "word_count": 103,
+  "verification_result": {
+    "case_id": 13150,
+    "arm": "combined",
+    "text_length": 584,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

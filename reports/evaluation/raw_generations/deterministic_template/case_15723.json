@@ -1,0 +1,31 @@
+{
+  "case_id": 15723,
+  "arm": "deterministic_template",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 54.5%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 54.5% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. REVOLVING CREDIT UTILIZATION (THE SHARE OF AVAILABLE CREDIT IN USE)\n   Observed value : 100.0%\n   Risk impact    : This factor increases the estimated default risk (+1.412).\n   Interpretation : A utilization of 100.0% means the applicant is using a significant portion of available revolving credit. High utilization is one of the strongest predictors of default risk.\n\n2. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 1\n   Risk impact    : This factor increases the estimated default risk (+0.503).\n   Interpretation : 1 recorded 30-59-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n3. NUMBER OF OPEN CREDIT LINES AND LOANS\n   Observed value : 0\n   Risk impact    : This factor decreases the estimated default risk (-0.341).\n   Interpretation : 0 open credit lines. This number is within a normal range.\n\nRECOURSE RECOMMENDATIONS\n========================================\nA feasible recourse pathway exists. The following 2 change(s) would reduce the estimated default probability from 54.5% to 13.1% (below the 50% threshold):\n\n  Step 1: Reduce revolving credit utilization (the share of available credit in use)\n    Current value : 100.0%\n    Target value  : 0.0%\n    Action        : Pay down revolving credit balances so total utilization drops from 100.0% to below 0.0%.\n  Step 2: Increase monthly income\n    Current value : $7,020/month\n    Target value  : $7,025/month\n    Action        : Increase documented monthly income from $7,020 to at least $7,025.\n\nNote: These recommendations are derived from a domain-constrained counterfactual search. All suggested changes are directionally feasible (e.g., paying down debt, increasing income). The model predicts that implementing all steps simultaneously would change the assessment to low risk.",
+  "word_count": 321,
+  "verification_result": {
+    "case_id": 15723,
+    "arm": "deterministic_template",
+    "text_length": 2326,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 18,
+    "numbers_matched": 17,
+    "numerical_accuracy": 0.9444444444444444,
+    "numerical_mismatches": [
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 2,
+    "recourse_actions_verified": 2,
+    "recourse_fidelity": 1.0,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

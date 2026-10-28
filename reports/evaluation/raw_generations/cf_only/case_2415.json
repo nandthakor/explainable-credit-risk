@@ -1,0 +1,29 @@
+{
+  "case_id": 2415,
+  "arm": "cf_only",
+  "text": "At this time the model does not identify any specific changes that are guaranteed to flip the decision for your profile. In other words, there isn\u2019t a single, verified step\u2014such as adjusting a particular debt\u2011to\u2011income ratio or adding a new type of account\u2014that the system knows will move you from \u201clow risk\u201d to an approved status. While you can still work on general credit\u2011building habits (paying existing balances down, keeping credit\u2011card utilization low, avoiding new hard inquiries, and maintaining steady income), none of these actions are confirmed by the model to change the outcome on their own. Continuing to strengthen your overall financial picture is the best approach.",
+  "word_count": 108,
+  "verification_result": {
+    "case_id": 2415,
+    "arm": "cf_only",
+    "text_length": 683,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

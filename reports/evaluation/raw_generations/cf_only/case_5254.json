@@ -1,0 +1,33 @@
+{
+  "case_id": 5254,
+  "arm": "cf_only",
+  "text": "At this time the model did not identify any single change that would automatically turn the decision around. That means there isn\u2019t a guaranteed shortcut, but you can still work on the factors that lenders usually consider. Try to lower any outstanding balances on credit cards or loans, because a smaller debt load shows you have more breathing room. If possible, increase your regular income\u2014through a raise, a second job, or freelance work\u2014to improve the ratio of earnings to obligations. Adding a reliable co\u2011signer or a joint applicant with a strong record can also make the overall application look less risky. Finally, keep existing accounts open and use them responsibly, as a longer, stable history is viewed positively. These steps won\u2019t guarantee an immediate change, but they are the most common ways to strengthen a credit\u2011risk profile over time.",
+  "word_count": 139,
+  "verification_result": {
+    "case_id": 5254,
+    "arm": "cf_only",
+    "text_length": 859,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [
+      "No feasible CFs exist, but text makes specific recourse claims"
+    ],
+    "flags": [
+      "RECOURSE_UNSUPPORTED:no_feasible_cfs"
+    ],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

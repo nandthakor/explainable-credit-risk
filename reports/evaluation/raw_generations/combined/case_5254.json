@@ -1,0 +1,29 @@
+{
+  "case_id": 5254,
+  "arm": "combined",
+  "text": "**Why the model decided \u201chigh risk\u201d**  \nThe model looks at the information it has about you and assigns a very high chance (about\u202f90\u202f%) that a loan would not be repaid. Three key points drove that result:  \n\n1. **A serious delinquency** \u2013 you have one account that was 90\u202f+\u202fdays past due. This alone adds a large amount of risk.  \n2. **Recent delinquencies** \u2013",
+  "word_count": 66,
+  "verification_result": {
+    "case_id": 5254,
+    "arm": "combined",
+    "text_length": 360,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 1,
+    "numbers_matched": 1,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

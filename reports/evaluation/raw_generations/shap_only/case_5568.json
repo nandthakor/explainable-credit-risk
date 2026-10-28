@@ -1,0 +1,29 @@
+{
+  "case_id": 5568,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as low\u2011risk because three key signals pulled the default probability down. First, the revolving\u2011credit utilization is only about\u202f0.5\u202f% of the available limit (0.0046), which strongly lowers risk \u2013 the model gave this factor a \u20130.65 contribution. Second, the applicant is 69\u202fyears old; older borrowers in this data set tend to default less, adding a \u20130.33 reduction. Finally, the record shows zero instances of payments that were 30\u201159 days late, which further cuts risk by \u20130.15. Together, these three negative contributions outweigh any other influences, resulting in a relatively low overall default probability of 10.8\u202f% and a \u201clow risk\u201d decision.",
+  "word_count": 108,
+  "verification_result": {
+    "case_id": 5568,
+    "arm": "shap_only",
+    "text_length": 682,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

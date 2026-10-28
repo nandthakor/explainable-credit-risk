@@ -1,0 +1,29 @@
+{
+  "case_id": 21252,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as high\u2011risk because three key signals pushed the default probability upward. First, the revolving\u2011credit utilization is 94\u202f% of the available limit, meaning almost all of the credit line is being used; this alone added the largest boost (+1.29) to the risk score. Second, the applicant has two accounts that are 30\u201159 days past due, which contributed another strong increase (+1.16). Finally, the applicant\u2019s age of 44 years added a smaller but still positive lift (+0.16). Together, these three factors drove the model\u2019s estimate to an 85.4\u202f% chance of default, resulting in the \u201chigh risk\u201d decision.",
+  "word_count": 102,
+  "verification_result": {
+    "case_id": 21252,
+    "arm": "shap_only",
+    "text_length": 635,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 3,
+    "numbers_matched": 3,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 12866,
+  "arm": "shap_only",
+  "text": "The model flagged this applicant as **high risk** because the biggest influence was the revolving\u2011credit utilization.\u202fThe applicant\u2019s utilization is essentially\u202f100\u202fpercent (0.9999999), and this alone added **+1.41** to the default\u2011risk score, pushing the probability well above the 50\u202fpercent threshold.  \n\nTwo other factors pulled the score down a little.\u202fAt\u202f61\u202fyears old, the applicant\u2019s age contributed **\u20110.17**, and having **no** 30\u2011to\u201159\u2011day past\u2011due accounts added **\u20110.15**. These negative contributions slightly reduce risk, but they are far outweighed by the near\u2011full credit\u2011line usage, resulting in a final default probability of **53.3\u202f%** and a \u201chigh risk\u201d decision.",
+  "word_count": 98,
+  "verification_result": {
+    "case_id": 12866,
+    "arm": "shap_only",
+    "text_length": 681,
+    "directional_checks": 2,
+    "directional_correct": 2,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 4,
+    "numbers_matched": 4,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

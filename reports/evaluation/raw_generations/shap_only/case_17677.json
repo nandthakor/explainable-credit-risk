@@ -1,0 +1,29 @@
+{
+  "case_id": 17677,
+  "arm": "shap_only",
+  "text": "The model labeled the applicant as low\u2011risk because three key pieces of information pulled the default probability down. First, the applicant\u2019s revolving\u2011credit utilization is almost zero (about 0.2\u202f% of the credit limit). Using so little of the available credit signals very responsible borrowing, and this factor alone cut the risk score by a large amount. Second, the applicant is 77\u202fyears old. In the data, people at this age tend to have stable financial habits, which further lowered the risk. Finally, a monthly income of $14,500 shows strong earning power, adding another modest reduction. Together, these three inputs pushed the predicted chance of default to just 8.8\u202f%, leading to the \u201clow risk\u201d decision.",
+  "word_count": 115,
+  "verification_result": {
+    "case_id": 17677,
+    "arm": "shap_only",
+    "text_length": 716,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 2,
+    "numbers_matched": 2,
+    "numerical_accuracy": 1.0,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": false,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

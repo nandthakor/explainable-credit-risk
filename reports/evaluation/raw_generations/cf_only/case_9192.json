@@ -1,0 +1,29 @@
+{
+  "case_id": 9192,
+  "arm": "cf_only",
+  "text": "At this time, the system has not identified any specific changes that are guaranteed to flip the current decision. That means there isn\u2019t a single, verified action\u2014like adjusting a particular account balance or adding a certain type of credit\u2014that will automatically move the application into an approved category. However, you can still work on the broader factors that lenders typically view positively: keep existing credit\u2011card balances low, avoid taking on new debt, make all payments on time, and consider adding a small, well\u2011managed credit line if you have none. Over time, these habits can improve your overall credit profile and increase the chance of approval in future reviews.",
+  "word_count": 108,
+  "verification_result": {
+    "case_id": 9192,
+    "arm": "cf_only",
+    "text_length": 689,
+    "directional_checks": 1,
+    "directional_correct": 1,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

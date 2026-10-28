@@ -1,0 +1,32 @@
+{
+  "case_id": 9033,
+  "arm": "combined",
+  "text": "**Why the model approved you**\n\nOur automated model looks at a few key signals to estimate the chance you might miss a payment. In your case, three factors stood out as strong positives:\n\n1. **Revolving credit utilization** \u2013 You are using only a tiny fraction of your available revolving credit (about\u202f0.2%). This very low usage tells the model you manage credit responsibly, pulling the risk down.  \n2. **Age** \u2013 At 64\u202fyears old, the model associates your longer life\u2011stage with a more stable financial picture, further lowering risk.  \n3. **Number of open credit lines & loans** \u2013 Having four open accounts shows you have diversified credit, which the model interprets as a sign of good credit handling.\n\nTogether, these signals helped the model place you in the \u201clow\u2011risk\u201d category, with an estimated 10.6\u202f% chance of default\u2014well below the threshold for a negative decision.\n\n**How you could improve further**\n\nThe system looked for any simple, verified actions that could make the decision even stronger, but it did not find a feasible pathway based on the data we have. In practice, continuing the habits that gave you a low utilization rate and keeping your existing credit accounts in good standing will maintain\u2014or even improve\u2014your standing over time.",
+  "word_count": 207,
+  "verification_result": {
+    "case_id": 9033,
+    "arm": "combined",
+    "text_length": 1262,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 4,
+    "numbers_matched": 2,
+    "numerical_accuracy": 0.5,
+    "numerical_mismatches": [
+      "2 (=2.00)",
+      "3 (=3.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": false
+}

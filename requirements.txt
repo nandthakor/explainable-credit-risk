@@ -1,0 +1,23 @@
+# Core Scientific & Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Machine Learning & Explainable AI (XAI)
+scikit-learn>=1.4.0
+shap>=0.45.0
+dice-ml>=0.11.0
+joblib>=1.3.0
+
+# Large Language Models & API
+groq>=0.9.0
+python-dotenv>=1.0.0
+
+# Evaluation & Metrics
+textstat>=0.7.0
+pytest>=8.0.0
+
+# Visualization & Dashboard
+streamlit>=1.35.0
+matplotlib>=3.8.0
+seaborn>=0.13.0

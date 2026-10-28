@@ -1,0 +1,29 @@
+{
+  "case_id": 28415,
+  "arm": "cf_only",
+  "text": "The review did not identify any specific changes that would automatically move the decision to a higher\u2011risk category. In other words, the model could not find a single, verified adjustment\u2014such as altering a particular account balance or adding a new type of credit\u2014that would guarantee a different outcome. Because no concrete pathway was discovered, there are no particular actions the system can point to that will definitively improve the profile for approval. If you wish to strengthen your overall financial picture, you may need to consider broader strategies (for example,",
+  "word_count": 90,
+  "verification_result": {
+    "case_id": 28415,
+    "arm": "cf_only",
+    "text_length": 581,
+    "directional_checks": 0,
+    "directional_correct": 0,
+    "directional_recall": null,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 0,
+    "numbers_matched": 0,
+    "numerical_accuracy": null,
+    "numerical_mismatches": [],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": false,
+  "retry_triggered": true
+}

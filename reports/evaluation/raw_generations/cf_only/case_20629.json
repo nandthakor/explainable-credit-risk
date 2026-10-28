@@ -1,0 +1,31 @@
+{
+  "case_id": 20629,
+  "arm": "cf_only",
+  "text": "CREDIT DECISION SUMMARY\n========================================\nModel Assessment: HIGH RISK \u2014 likely to default\nEstimated Default Probability: 50.0%\nDecision Threshold: 50%\n\nIMPORTANT: This is a statistical model score, not a guarantee. The model estimates a 50.0% probability of serious delinquency within two years based on the provided credit data. Actual outcomes depend on many factors not captured by this model.\n\nKEY FACTORS DRIVING THIS ASSESSMENT\n========================================\n\n1. DEBT-TO-INCOME RATIO (TOTAL MONTHLY DEBT OBLIGATIONS RELATIVE TO INCOME)\n   Observed value : 4,695 (extremely high ratio)\n   Risk impact    : This factor decreases the estimated default risk (-0.534).\n   Interpretation : A debt ratio of 4,695 is extremely high, often seen in edge cases such as near-zero income. This distorts the ratio but the model interprets the raw value.\n\n2. NUMBER OF TIMES 30-59 DAYS PAST DUE (RECENT MILD DELINQUENCIES)\n   Observed value : 1\n   Risk impact    : This factor increases the estimated default risk (+0.503).\n   Interpretation : 1 recorded 30-59-day late payment(s). Payment delinquencies are strong indicators of future default.\n\n3. NUMBER OF OPEN CREDIT LINES AND LOANS\n   Observed value : 20\n   Risk impact    : This factor increases the estimated default risk (+0.465).\n   Interpretation : 20 open credit lines. A higher number may indicate over-leveraging.\n\nRECOURSE RECOMMENDATIONS\n========================================\nAfter exhaustive search, no feasible recourse pathway was identified under the current domain constraints. This means that within the set of changes a borrower can realistically make (reducing debt, improving credit utilization, increasing income), no single combination was found that would flip the model's assessment to low risk while respecting all domain rules. This may reflect that the adverse factors are primarily driven by features that cannot be immediately improved.",
+  "word_count": 271,
+  "verification_result": {
+    "case_id": 20629,
+    "arm": "cf_only",
+    "text_length": 1946,
+    "directional_checks": 3,
+    "directional_correct": 3,
+    "directional_recall": 1.0,
+    "directional_inversions": [],
+    "hallucinated_features": [],
+    "numbers_extracted": 9,
+    "numbers_matched": 8,
+    "numerical_accuracy": 0.8888888888888888,
+    "numerical_mismatches": [
+      "2 (=2.00)"
+    ],
+    "recourse_checks_applicable": true,
+    "recourse_actions_stated": 0,
+    "recourse_actions_verified": 0,
+    "recourse_fidelity": null,
+    "recourse_violations": [],
+    "flags": [],
+    "passed": true
+  },
+  "fallback_triggered": true,
+  "retry_triggered": true
+}
